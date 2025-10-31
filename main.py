@@ -75,18 +75,27 @@ async def main():
             "command": "npx",
             "args": ["-y", "@modelcontextprotocol/server-filesystem", str("./")],
         },
-    ) as server:
-        math_tutor_agent = Agent(
-            name="Tutor",
-            handoff_description="Specialist tutor agent for questions",
-            instructions="You provide help with homework problems. Explain your reasoning at each step and include examples",
-            mcp_servers=[server],
-            #tools=[WebSearchTool()],
-            model=LitellmModel(base_url="http://localhost:8822", model="my-custom-llm/Qwen3-4B-4bit", api_key="...")
-        )
+        client_session_timeout_seconds=60.0,  # Allow time for server initialization
+    ) as filesystem_server:
+        async with MCPServerStdio(
+            name="PDF Indexer",
+            params={
+                "command": "/Users/annhoward/openai_agents_10_23_25/env/bin/python3",
+                "args": ["/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py"],
+            },
+            client_session_timeout_seconds=60.0,  # Longer timeout for RAG server initialization
+        ) as pdf_indexer_server:
+            math_tutor_agent = Agent(
+                name="Tutor",
+                handoff_description="Specialist tutor agent for questions",
+                instructions="You provide help with homework problems. Explain your reasoning at each step and include examples",
+                mcp_servers=[filesystem_server, pdf_indexer_server],
+                tools=[WebSearchTool()],
+                model="gpt-5"
+            )
 
-        result = await Runner.run(math_tutor_agent, "Explain everything I need to know in order to understand holographic universe theory, saving several Markdown files about them, and then writing a final high-level explanatory report in the current directory.")
-        print(result.final_output)
+            result = await Runner.run(math_tutor_agent, "List all the papers in the database.")
+            print(result.final_output)
 
 
 

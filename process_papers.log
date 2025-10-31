@@ -1,0 +1,1241 @@
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+18:22:01 - INFO - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+18:22:01 - INFO - Database initialized successfully
+18:22:01 - INFO - Database initialized successfully
+18:22:01 - INFO - Found 160 PDF files
+18:22:01 - INFO - 
+[1/160] Processing 0047-2727%2873%2990013-3 (1).pdf
+18:22:01 - INFO - → 0047-2727%2873%2990013-3 (1).pdf - indexing...
+18:22:02 - INFO - Calculated common font size: 9.60
+18:22:03 - INFO - Inserted paper: 0047-2727%2873%2990013-3 (1).pdf, paper_id: 29
+18:22:03 - INFO - Inserted 23 chunks for paper_id: 29
+18:22:03 - INFO - Inserted 22 sections for paper_id: 29
+18:22:03 - INFO - ✓ 0047-2727%2873%2990013-3 (1).pdf - indexed (23 chunks)
+18:22:03 - INFO - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 214481.45it/s]
+18:22:04 - INFO - PERF: load_embedding_model - 0.849s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+18:22:04 - INFO - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+18:22:04 - INFO - Generating embeddings for 23 texts in batches of 32
+18:22:07 - INFO - PERF: generate_embeddings - 3.187s - num_texts=23, batch_size=32, embeddings_per_sec=7.2162476257272425
+18:22:07 - INFO - Generated 23 embeddings in 3.19s (7.2 texts/sec)
+18:22:07 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:07 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:07 - INFO - PERF: load_faiss_index - 0.005s - index_name=research_papers, num_vectors=2240
+18:22:07 - INFO - Loaded FAISS index: 2240 vectors with 2240 mappings
+18:22:07 - INFO - Adding 23 embeddings to FAISS index
+18:22:07 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=23, total_vectors=2263
+18:22:07 - INFO - Added 23 embeddings. Total: 2263
+18:22:07 - INFO - Updated 23 chunk embedding indices
+18:22:07 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:07 - INFO - PERF: save_faiss_index - 0.051s - index_name=research_papers, num_vectors=2263
+18:22:07 - INFO - Saved FAISS index: 2263 vectors
+18:22:07 - INFO - ✓ 0047-2727%2873%2990013-3 (1).pdf - embeddings generated (23)
+18:22:07 - INFO - 
+[2/160] Processing 0047-2727%2873%2990013-3.pdf
+18:22:07 - INFO - → 0047-2727%2873%2990013-3.pdf - indexing...
+18:22:08 - INFO - Calculated common font size: 9.60
+18:22:09 - INFO - Inserted paper: 0047-2727%2873%2990013-3.pdf, paper_id: 30
+18:22:09 - INFO - Inserted 23 chunks for paper_id: 30
+18:22:09 - INFO - Inserted 22 sections for paper_id: 30
+18:22:09 - INFO - ✓ 0047-2727%2873%2990013-3.pdf - indexed (23 chunks)
+18:22:09 - INFO - Generating embeddings for 23 texts in batches of 32
+18:22:12 - INFO - PERF: generate_embeddings - 2.193s - num_texts=23, batch_size=32, embeddings_per_sec=10.487437990078412
+18:22:12 - INFO - Generated 23 embeddings in 2.19s (10.5 texts/sec)
+18:22:12 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:12 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:12 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2263
+18:22:12 - INFO - Loaded FAISS index: 2263 vectors with 2263 mappings
+18:22:12 - INFO - Adding 23 embeddings to FAISS index
+18:22:12 - INFO - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=23, total_vectors=2286
+18:22:12 - INFO - Added 23 embeddings. Total: 2286
+18:22:12 - INFO - Updated 23 chunk embedding indices
+18:22:12 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:12 - INFO - PERF: save_faiss_index - 0.008s - index_name=research_papers, num_vectors=2286
+18:22:12 - INFO - Saved FAISS index: 2286 vectors
+18:22:12 - INFO - ✓ 0047-2727%2873%2990013-3.pdf - embeddings generated (23)
+18:22:12 - INFO - 
+[3/160] Processing 1409.3215v3.pdf
+18:22:12 - INFO - ✓ 1409.3215v3.pdf - already processed
+18:22:12 - INFO - 
+[4/160] Processing 1512.07679v2.pdf
+18:22:12 - INFO - ✓ 1512.07679v2.pdf - already processed
+18:22:12 - INFO - 
+[5/160] Processing 1603.09320v4.pdf
+18:22:12 - INFO - ✓ 1603.09320v4.pdf - already processed
+18:22:12 - INFO - 
+[6/160] Processing 1706.03762.pdf
+18:22:12 - INFO - ✓ 1706.03762.pdf - already processed
+18:22:12 - INFO - 
+[7/160] Processing 1706.03762v7 copy.pdf
+18:22:12 - INFO - → 1706.03762v7 copy.pdf - indexing...
+18:22:12 - INFO - Calculated common font size: 9.96
+18:22:12 - INFO - Inserted paper: 1706.03762v7 copy.pdf, paper_id: 31
+18:22:12 - INFO - Inserted 36 chunks for paper_id: 31
+18:22:12 - INFO - Inserted 36 sections for paper_id: 31
+18:22:12 - INFO - ✓ 1706.03762v7 copy.pdf - indexed (36 chunks)
+18:22:12 - INFO - Generating embeddings for 36 texts in batches of 32
+18:22:16 - INFO - PERF: generate_embeddings - 3.602s - num_texts=36, batch_size=32, embeddings_per_sec=9.994816686607324
+18:22:16 - INFO - Generated 36 embeddings in 3.60s (10.0 texts/sec)
+18:22:16 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:16 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:16 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2286
+18:22:16 - INFO - Loaded FAISS index: 2286 vectors with 2286 mappings
+18:22:16 - INFO - Adding 36 embeddings to FAISS index
+18:22:16 - INFO - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=36, total_vectors=2322
+18:22:16 - INFO - Added 36 embeddings. Total: 2322
+18:22:16 - INFO - Updated 36 chunk embedding indices
+18:22:16 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:16 - INFO - PERF: save_faiss_index - 0.012s - index_name=research_papers, num_vectors=2322
+18:22:16 - INFO - Saved FAISS index: 2322 vectors
+18:22:16 - INFO - ✓ 1706.03762v7 copy.pdf - embeddings generated (36)
+18:22:16 - INFO - 
+[8/160] Processing 1706.03762v7.pdf
+18:22:16 - INFO - → 1706.03762v7.pdf - indexing...
+18:22:16 - INFO - Calculated common font size: 9.96
+18:22:16 - INFO - Inserted paper: 1706.03762v7.pdf, paper_id: 32
+18:22:16 - INFO - Inserted 36 chunks for paper_id: 32
+18:22:16 - INFO - Inserted 36 sections for paper_id: 32
+18:22:16 - INFO - ✓ 1706.03762v7.pdf - indexed (36 chunks)
+18:22:16 - INFO - Generating embeddings for 36 texts in batches of 32
+18:22:20 - INFO - PERF: generate_embeddings - 3.914s - num_texts=36, batch_size=32, embeddings_per_sec=9.197464728369061
+18:22:20 - INFO - Generated 36 embeddings in 3.91s (9.2 texts/sec)
+18:22:20 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:20 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:20 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2322
+18:22:20 - INFO - Loaded FAISS index: 2322 vectors with 2322 mappings
+18:22:20 - INFO - Adding 36 embeddings to FAISS index
+18:22:20 - INFO - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=36, total_vectors=2358
+18:22:20 - INFO - Added 36 embeddings. Total: 2358
+18:22:20 - INFO - Updated 36 chunk embedding indices
+18:22:20 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:20 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=2358
+18:22:20 - INFO - Saved FAISS index: 2358 vectors
+18:22:20 - INFO - ✓ 1706.03762v7.pdf - embeddings generated (36)
+18:22:20 - INFO - 
+[9/160] Processing 1904.08490v1.pdf
+18:22:20 - INFO - ✓ 1904.08490v1.pdf - already processed
+18:22:20 - INFO - 
+[10/160] Processing 1911.01547v2.pdf
+18:22:20 - INFO - ✓ 1911.01547v2.pdf - already processed
+18:22:20 - INFO - 
+Progress: 10/160 (6%) - 31.1 papers/min - Est. 4.8 min remaining
+18:22:20 - INFO - 
+[11/160] Processing 2010.11929.pdf
+18:22:20 - INFO - ✓ 2010.11929.pdf - already processed
+18:22:20 - INFO - 
+[12/160] Processing 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57 (1).pdf
+18:22:20 - INFO - → 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57 (1).pdf - indexing...
+18:22:21 - INFO - Calculated common font size: 10.00
+18:22:21 - INFO - Inserted paper: 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57 (1).pdf, paper_id: 33
+18:22:21 - INFO - Inserted 118 chunks for paper_id: 33
+18:22:21 - INFO - Inserted 112 sections for paper_id: 33
+18:22:21 - INFO - ✓ 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57 (1).pdf - indexed (118 chunks)
+18:22:21 - INFO - Generating embeddings for 118 texts in batches of 32
+18:22:34 - INFO - PERF: generate_embeddings - 12.595s - num_texts=118, batch_size=32, embeddings_per_sec=9.36856728335651
+18:22:34 - INFO - Generated 118 embeddings in 12.60s (9.4 texts/sec)
+18:22:34 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:34 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:34 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=2358
+18:22:34 - INFO - Loaded FAISS index: 2358 vectors with 2358 mappings
+18:22:34 - INFO - Adding 118 embeddings to FAISS index
+18:22:34 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=118, total_vectors=2476
+18:22:34 - INFO - Added 118 embeddings. Total: 2476
+18:22:34 - INFO - Updated 118 chunk embedding indices
+18:22:34 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:34 - INFO - PERF: save_faiss_index - 0.022s - index_name=research_papers, num_vectors=2476
+18:22:34 - INFO - Saved FAISS index: 2476 vectors
+18:22:34 - INFO - ✓ 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57 (1).pdf - embeddings generated (118)
+18:22:34 - INFO - 
+[13/160] Processing 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57.pdf
+18:22:34 - INFO - → 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57.pdf - indexing...
+18:22:34 - INFO - Calculated common font size: 10.00
+18:22:35 - INFO - Inserted paper: 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57.pdf, paper_id: 34
+18:22:35 - INFO - Inserted 118 chunks for paper_id: 34
+18:22:35 - INFO - Inserted 112 sections for paper_id: 34
+18:22:35 - INFO - ✓ 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57.pdf - indexed (118 chunks)
+18:22:35 - INFO - Generating embeddings for 118 texts in batches of 32
+18:22:49 - INFO - PERF: generate_embeddings - 14.129s - num_texts=118, batch_size=32, embeddings_per_sec=8.35145999817726
+18:22:49 - INFO - Generated 118 embeddings in 14.13s (8.4 texts/sec)
+18:22:49 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:49 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:49 - INFO - PERF: load_faiss_index - 0.216s - index_name=research_papers, num_vectors=2476
+18:22:49 - INFO - Loaded FAISS index: 2476 vectors with 2476 mappings
+18:22:49 - INFO - Adding 118 embeddings to FAISS index
+18:22:49 - INFO - PERF: add_embeddings_to_faiss - 0.057s - num_embeddings=118, total_vectors=2594
+18:22:49 - INFO - Added 118 embeddings. Total: 2594
+18:22:49 - INFO - Updated 118 chunk embedding indices
+18:22:49 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:49 - INFO - PERF: save_faiss_index - 0.010s - index_name=research_papers, num_vectors=2594
+18:22:49 - INFO - Saved FAISS index: 2594 vectors
+18:22:49 - INFO - ✓ 2025WorkTrendIndexAnnualReport_5.1_6813c2d4e2d57.pdf - embeddings generated (118)
+18:22:49 - INFO - 
+[14/160] Processing 2107.02621v2.pdf
+18:22:49 - INFO - ✓ 2107.02621v2.pdf - already processed
+18:22:49 - INFO - 
+[15/160] Processing 21324-Article Text-25337-1-2-20220628.pdf
+18:22:49 - INFO - → 21324-Article Text-25337-1-2-20220628.pdf - indexing...
+18:22:50 - INFO - Calculated common font size: 9.96
+18:22:50 - INFO - Inserted paper: 21324-Article Text-25337-1-2-20220628.pdf, paper_id: 35
+18:22:50 - INFO - Inserted 40 chunks for paper_id: 35
+18:22:50 - INFO - Inserted 40 sections for paper_id: 35
+18:22:50 - INFO - ✓ 21324-Article Text-25337-1-2-20220628.pdf - indexed (40 chunks)
+18:22:50 - INFO - Generating embeddings for 40 texts in batches of 32
+18:22:55 - INFO - PERF: generate_embeddings - 5.108s - num_texts=40, batch_size=32, embeddings_per_sec=7.830188331410076
+18:22:55 - INFO - Generated 40 embeddings in 5.11s (7.8 texts/sec)
+18:22:55 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:22:55 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:55 - INFO - PERF: load_faiss_index - 0.008s - index_name=research_papers, num_vectors=2594
+18:22:55 - INFO - Loaded FAISS index: 2594 vectors with 2594 mappings
+18:22:55 - INFO - Adding 40 embeddings to FAISS index
+18:22:55 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=40, total_vectors=2634
+18:22:55 - INFO - Added 40 embeddings. Total: 2634
+18:22:55 - INFO - Updated 40 chunk embedding indices
+18:22:55 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:22:55 - INFO - PERF: save_faiss_index - 0.024s - index_name=research_papers, num_vectors=2634
+18:22:55 - INFO - Saved FAISS index: 2634 vectors
+18:22:55 - INFO - ✓ 21324-Article Text-25337-1-2-20220628.pdf - embeddings generated (40)
+18:22:55 - INFO - 
+[16/160] Processing 2201.11903v6 (1).pdf
+18:22:55 - INFO - → 2201.11903v6 (1).pdf - indexing...
+18:22:55 - INFO - Calculated common font size: 9.96
+18:22:56 - INFO - Inserted paper: 2201.11903v6 (1).pdf, paper_id: 36
+18:22:56 - INFO - Inserted 169 chunks for paper_id: 36
+18:22:56 - INFO - Inserted 168 sections for paper_id: 36
+18:22:56 - INFO - ✓ 2201.11903v6 (1).pdf - indexed (169 chunks)
+18:22:56 - INFO - Generating embeddings for 169 texts in batches of 32
+18:23:12 - INFO - PERF: generate_embeddings - 16.080s - num_texts=169, batch_size=32, embeddings_per_sec=10.510225348078366
+18:23:12 - INFO - Generated 169 embeddings in 16.08s (10.5 texts/sec)
+18:23:12 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:12 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:12 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=2634
+18:23:12 - INFO - Loaded FAISS index: 2634 vectors with 2634 mappings
+18:23:12 - INFO - Adding 169 embeddings to FAISS index
+18:23:12 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=169, total_vectors=2803
+18:23:12 - INFO - Added 169 embeddings. Total: 2803
+18:23:12 - INFO - Updated 169 chunk embedding indices
+18:23:12 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:12 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=2803
+18:23:12 - INFO - Saved FAISS index: 2803 vectors
+18:23:12 - INFO - ✓ 2201.11903v6 (1).pdf - embeddings generated (169)
+18:23:12 - INFO - 
+[17/160] Processing 2201.11903v6.pdf
+18:23:12 - INFO - ✓ 2201.11903v6.pdf - already processed
+18:23:12 - INFO - 
+[18/160] Processing 2202.04586v2.pdf
+18:23:12 - INFO - ✓ 2202.04586v2.pdf - already processed
+18:23:12 - INFO - 
+[19/160] Processing 2203.11171.pdf
+18:23:12 - INFO - ✓ 2203.11171.pdf - already processed
+18:23:12 - INFO - 
+[20/160] Processing 2203.15556v1.pdf
+18:23:12 - INFO - ✓ 2203.15556v1.pdf - already processed
+18:23:12 - INFO - 
+Progress: 20/160 (12%) - 16.9 papers/min - Est. 8.3 min remaining
+18:23:12 - INFO - 
+[21/160] Processing 2210.03629v3.pdf
+18:23:12 - INFO - ✓ 2210.03629v3.pdf - already processed
+18:23:12 - INFO - 
+[22/160] Processing 2211.12194v2.pdf
+18:23:12 - INFO - ✓ 2211.12194v2.pdf - already processed
+18:23:12 - INFO - 
+[23/160] Processing 2302.11382 (1).pdf
+18:23:12 - INFO - → 2302.11382 (1).pdf - indexing...
+18:23:12 - INFO - Calculated common font size: 9.96
+18:23:12 - INFO - Inserted paper: 2302.11382 (1).pdf, paper_id: 37
+18:23:12 - INFO - Inserted 27 chunks for paper_id: 37
+18:23:12 - INFO - Inserted 26 sections for paper_id: 37
+18:23:12 - INFO - ✓ 2302.11382 (1).pdf - indexed (27 chunks)
+18:23:12 - INFO - Generating embeddings for 27 texts in batches of 32
+18:23:15 - INFO - PERF: generate_embeddings - 2.722s - num_texts=27, batch_size=32, embeddings_per_sec=9.917898767836066
+18:23:15 - INFO - Generated 27 embeddings in 2.72s (9.9 texts/sec)
+18:23:15 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:15 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:15 - INFO - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=2803
+18:23:15 - INFO - Loaded FAISS index: 2803 vectors with 2803 mappings
+18:23:15 - INFO - Adding 27 embeddings to FAISS index
+18:23:15 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=27, total_vectors=2830
+18:23:15 - INFO - Added 27 embeddings. Total: 2830
+18:23:15 - INFO - Updated 27 chunk embedding indices
+18:23:15 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:15 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=2830
+18:23:15 - INFO - Saved FAISS index: 2830 vectors
+18:23:15 - INFO - ✓ 2302.11382 (1).pdf - embeddings generated (27)
+18:23:15 - INFO - 
+[24/160] Processing 2302.11382.pdf
+18:23:15 - INFO - ✓ 2302.11382.pdf - already processed
+18:23:15 - INFO - 
+[25/160] Processing 2302.11382v1 (1).pdf
+18:23:15 - INFO - → 2302.11382v1 (1).pdf - indexing...
+18:23:16 - INFO - Calculated common font size: 9.96
+18:23:16 - INFO - Inserted paper: 2302.11382v1 (1).pdf, paper_id: 38
+18:23:16 - INFO - Inserted 27 chunks for paper_id: 38
+18:23:16 - INFO - Inserted 26 sections for paper_id: 38
+18:23:16 - INFO - ✓ 2302.11382v1 (1).pdf - indexed (27 chunks)
+18:23:16 - INFO - Generating embeddings for 27 texts in batches of 32
+18:23:18 - INFO - PERF: generate_embeddings - 2.553s - num_texts=27, batch_size=32, embeddings_per_sec=10.576965763386895
+18:23:18 - INFO - Generated 27 embeddings in 2.55s (10.6 texts/sec)
+18:23:18 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:18 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:18 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2830
+18:23:18 - INFO - Loaded FAISS index: 2830 vectors with 2830 mappings
+18:23:18 - INFO - Adding 27 embeddings to FAISS index
+18:23:18 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=27, total_vectors=2857
+18:23:18 - INFO - Added 27 embeddings. Total: 2857
+18:23:18 - INFO - Updated 27 chunk embedding indices
+18:23:18 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:18 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=2857
+18:23:18 - INFO - Saved FAISS index: 2857 vectors
+18:23:18 - INFO - ✓ 2302.11382v1 (1).pdf - embeddings generated (27)
+18:23:18 - INFO - 
+[26/160] Processing 2302.11382v1 (2).pdf
+18:23:18 - INFO - → 2302.11382v1 (2).pdf - indexing...
+18:23:19 - INFO - Calculated common font size: 9.96
+18:23:19 - INFO - Inserted paper: 2302.11382v1 (2).pdf, paper_id: 39
+18:23:19 - INFO - Inserted 27 chunks for paper_id: 39
+18:23:19 - INFO - Inserted 26 sections for paper_id: 39
+18:23:19 - INFO - ✓ 2302.11382v1 (2).pdf - indexed (27 chunks)
+18:23:19 - INFO - Generating embeddings for 27 texts in batches of 32
+18:23:21 - INFO - PERF: generate_embeddings - 2.409s - num_texts=27, batch_size=32, embeddings_per_sec=11.206706079967795
+18:23:21 - INFO - Generated 27 embeddings in 2.41s (11.2 texts/sec)
+18:23:21 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:21 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:21 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2857
+18:23:21 - INFO - Loaded FAISS index: 2857 vectors with 2857 mappings
+18:23:21 - INFO - Adding 27 embeddings to FAISS index
+18:23:21 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=27, total_vectors=2884
+18:23:21 - INFO - Added 27 embeddings. Total: 2884
+18:23:21 - INFO - Updated 27 chunk embedding indices
+18:23:21 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:21 - INFO - PERF: save_faiss_index - 0.003s - index_name=research_papers, num_vectors=2884
+18:23:21 - INFO - Saved FAISS index: 2884 vectors
+18:23:21 - INFO - ✓ 2302.11382v1 (2).pdf - embeddings generated (27)
+18:23:21 - INFO - 
+[27/160] Processing 2302.11382v1.pdf
+18:23:21 - INFO - → 2302.11382v1.pdf - indexing...
+18:23:22 - INFO - Calculated common font size: 9.96
+18:23:22 - INFO - Inserted paper: 2302.11382v1.pdf, paper_id: 40
+18:23:22 - INFO - Inserted 27 chunks for paper_id: 40
+18:23:22 - INFO - Inserted 26 sections for paper_id: 40
+18:23:22 - INFO - ✓ 2302.11382v1.pdf - indexed (27 chunks)
+18:23:22 - INFO - Generating embeddings for 27 texts in batches of 32
+18:23:24 - INFO - PERF: generate_embeddings - 2.334s - num_texts=27, batch_size=32, embeddings_per_sec=11.570452417283821
+18:23:24 - INFO - Generated 27 embeddings in 2.33s (11.6 texts/sec)
+18:23:24 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:24 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:24 - INFO - PERF: load_faiss_index - 0.002s - index_name=research_papers, num_vectors=2884
+18:23:24 - INFO - Loaded FAISS index: 2884 vectors with 2884 mappings
+18:23:24 - INFO - Adding 27 embeddings to FAISS index
+18:23:24 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=27, total_vectors=2911
+18:23:24 - INFO - Added 27 embeddings. Total: 2911
+18:23:24 - INFO - Updated 27 chunk embedding indices
+18:23:24 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:24 - INFO - PERF: save_faiss_index - 0.015s - index_name=research_papers, num_vectors=2911
+18:23:24 - INFO - Saved FAISS index: 2911 vectors
+18:23:24 - INFO - ✓ 2302.11382v1.pdf - embeddings generated (27)
+18:23:24 - INFO - 
+[28/160] Processing 2303.04137v5.pdf
+18:23:24 - INFO - ✓ 2303.04137v5.pdf - already processed
+18:23:24 - INFO - 
+[29/160] Processing 2303.11156v3.pdf
+18:23:24 - INFO - ✓ 2303.11156v3.pdf - already processed
+18:23:24 - INFO - 
+[30/160] Processing 2305.10601v2.pdf
+18:23:24 - INFO - ✓ 2305.10601v2.pdf - already processed
+18:23:24 - INFO - 
+Progress: 30/160 (18%) - 21.6 papers/min - Est. 6.0 min remaining
+18:23:24 - INFO - 
+[31/160] Processing 2305.14314v1.pdf
+18:23:24 - INFO - ✓ 2305.14314v1.pdf - already processed
+18:23:24 - INFO - 
+[32/160] Processing 2305.19534v1.pdf
+18:23:24 - INFO - ✓ 2305.19534v1.pdf - already processed
+18:23:24 - INFO - 
+[33/160] Processing 2306.16388v2.pdf
+18:23:24 - INFO - ✓ 2306.16388v2.pdf - already processed
+18:23:24 - INFO - 
+[34/160] Processing 2308.08708.pdf
+18:23:24 - INFO - → 2308.08708.pdf - indexing...
+18:23:25 - INFO - Calculated common font size: 11.96
+18:23:26 - INFO - Inserted paper: 2308.08708.pdf, paper_id: 41
+18:23:26 - INFO - Inserted 133 chunks for paper_id: 41
+18:23:26 - INFO - Inserted 133 sections for paper_id: 41
+18:23:26 - INFO - ✓ 2308.08708.pdf - indexed (133 chunks)
+18:23:26 - INFO - Generating embeddings for 133 texts in batches of 32
+18:23:37 - INFO - PERF: generate_embeddings - 11.866s - num_texts=133, batch_size=32, embeddings_per_sec=11.208702789191468
+18:23:37 - INFO - Generated 133 embeddings in 11.87s (11.2 texts/sec)
+18:23:37 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:37 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:37 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=2911
+18:23:37 - INFO - Loaded FAISS index: 2911 vectors with 2911 mappings
+18:23:37 - INFO - Adding 133 embeddings to FAISS index
+18:23:37 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=133, total_vectors=3044
+18:23:37 - INFO - Added 133 embeddings. Total: 3044
+18:23:37 - INFO - Updated 133 chunk embedding indices
+18:23:37 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:37 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3044
+18:23:37 - INFO - Saved FAISS index: 3044 vectors
+18:23:37 - INFO - ✓ 2308.08708.pdf - embeddings generated (133)
+18:23:37 - INFO - 
+[35/160] Processing 2308.08708v3.pdf
+18:23:38 - INFO - ✓ 2308.08708v3.pdf - already processed
+18:23:38 - INFO - 
+[36/160] Processing 2308.09213v2.pdf
+18:23:38 - INFO - ✓ 2308.09213v2.pdf - already processed
+18:23:38 - INFO - 
+[37/160] Processing 2308.10792v8.pdf
+18:23:38 - INFO - ✓ 2308.10792v8.pdf - already processed
+18:23:38 - INFO - 
+[38/160] Processing 2310.01405v4.pdf
+18:23:38 - INFO - ✓ 2310.01405v4.pdf - already processed
+18:23:38 - INFO - 
+[39/160] Processing 2310.03714v1.pdf
+18:23:38 - INFO - ✓ 2310.03714v1.pdf - already processed
+18:23:38 - INFO - 
+[40/160] Processing 2310.16427.pdf
+18:23:38 - INFO - → 2310.16427.pdf - indexing...
+18:23:38 - INFO - Calculated common font size: 9.96
+18:23:38 - INFO - Inserted paper: 2310.16427.pdf, paper_id: 42
+18:23:38 - INFO - Inserted 98 chunks for paper_id: 42
+18:23:38 - INFO - Inserted 96 sections for paper_id: 42
+18:23:38 - INFO - ✓ 2310.16427.pdf - indexed (98 chunks)
+18:23:38 - INFO - Generating embeddings for 98 texts in batches of 32
+18:23:47 - INFO - PERF: generate_embeddings - 8.755s - num_texts=98, batch_size=32, embeddings_per_sec=11.19381445320372
+18:23:47 - INFO - Generated 98 embeddings in 8.75s (11.2 texts/sec)
+18:23:47 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:47 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:47 - INFO - PERF: load_faiss_index - 0.009s - index_name=research_papers, num_vectors=3044
+18:23:47 - INFO - Loaded FAISS index: 3044 vectors with 3044 mappings
+18:23:47 - INFO - Adding 98 embeddings to FAISS index
+18:23:47 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=98, total_vectors=3142
+18:23:47 - INFO - Added 98 embeddings. Total: 3142
+18:23:47 - INFO - Updated 98 chunk embedding indices
+18:23:47 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:47 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3142
+18:23:47 - INFO - Saved FAISS index: 3142 vectors
+18:23:47 - INFO - ✓ 2310.16427.pdf - embeddings generated (98)
+18:23:47 - INFO - 
+Progress: 40/160 (25%) - 22.6 papers/min - Est. 5.3 min remaining
+18:23:47 - INFO - 
+[41/160] Processing 2310.16427v2 (1).pdf
+18:23:47 - INFO - → 2310.16427v2 (1).pdf - indexing...
+18:23:48 - INFO - Calculated common font size: 9.96
+18:23:48 - INFO - Inserted paper: 2310.16427v2 (1).pdf, paper_id: 43
+18:23:48 - INFO - Inserted 98 chunks for paper_id: 43
+18:23:48 - INFO - Inserted 96 sections for paper_id: 43
+18:23:48 - INFO - ✓ 2310.16427v2 (1).pdf - indexed (98 chunks)
+18:23:48 - INFO - Generating embeddings for 98 texts in batches of 32
+18:23:57 - INFO - PERF: generate_embeddings - 8.679s - num_texts=98, batch_size=32, embeddings_per_sec=11.292216390823487
+18:23:57 - INFO - Generated 98 embeddings in 8.68s (11.3 texts/sec)
+18:23:57 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:23:57 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:57 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=3142
+18:23:57 - INFO - Loaded FAISS index: 3142 vectors with 3142 mappings
+18:23:57 - INFO - Adding 98 embeddings to FAISS index
+18:23:57 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=98, total_vectors=3240
+18:23:57 - INFO - Added 98 embeddings. Total: 3240
+18:23:57 - INFO - Updated 98 chunk embedding indices
+18:23:57 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:23:57 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3240
+18:23:57 - INFO - Saved FAISS index: 3240 vectors
+18:23:57 - INFO - ✓ 2310.16427v2 (1).pdf - embeddings generated (98)
+18:23:57 - INFO - 
+[42/160] Processing 2310.16427v2 (2).pdf
+18:23:57 - INFO - → 2310.16427v2 (2).pdf - indexing...
+18:23:57 - INFO - Calculated common font size: 9.96
+18:23:57 - INFO - Inserted paper: 2310.16427v2 (2).pdf, paper_id: 44
+18:23:57 - INFO - Inserted 98 chunks for paper_id: 44
+18:23:58 - INFO - Inserted 96 sections for paper_id: 44
+18:23:58 - INFO - ✓ 2310.16427v2 (2).pdf - indexed (98 chunks)
+18:23:58 - INFO - Generating embeddings for 98 texts in batches of 32
+18:24:06 - INFO - PERF: generate_embeddings - 8.774s - num_texts=98, batch_size=32, embeddings_per_sec=11.169579008109078
+18:24:06 - INFO - Generated 98 embeddings in 8.77s (11.2 texts/sec)
+18:24:06 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:06 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:06 - INFO - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=3240
+18:24:06 - INFO - Loaded FAISS index: 3240 vectors with 3240 mappings
+18:24:06 - INFO - Adding 98 embeddings to FAISS index
+18:24:06 - INFO - PERF: add_embeddings_to_faiss - 0.001s - num_embeddings=98, total_vectors=3338
+18:24:06 - INFO - Added 98 embeddings. Total: 3338
+18:24:06 - INFO - Updated 98 chunk embedding indices
+18:24:06 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:06 - INFO - PERF: save_faiss_index - 0.034s - index_name=research_papers, num_vectors=3338
+18:24:06 - INFO - Saved FAISS index: 3338 vectors
+18:24:06 - INFO - ✓ 2310.16427v2 (2).pdf - embeddings generated (98)
+18:24:06 - INFO - 
+[43/160] Processing 2310.16427v2.pdf
+18:24:06 - INFO - → 2310.16427v2.pdf - indexing...
+18:24:07 - INFO - Calculated common font size: 9.96
+18:24:07 - INFO - Inserted paper: 2310.16427v2.pdf, paper_id: 45
+18:24:07 - INFO - Inserted 98 chunks for paper_id: 45
+18:24:07 - INFO - Inserted 96 sections for paper_id: 45
+18:24:07 - INFO - ✓ 2310.16427v2.pdf - indexed (98 chunks)
+18:24:07 - INFO - Generating embeddings for 98 texts in batches of 32
+18:24:16 - INFO - PERF: generate_embeddings - 8.483s - num_texts=98, batch_size=32, embeddings_per_sec=11.55253719918186
+18:24:16 - INFO - Generated 98 embeddings in 8.48s (11.6 texts/sec)
+18:24:16 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:16 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:16 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=3338
+18:24:16 - INFO - Loaded FAISS index: 3338 vectors with 3338 mappings
+18:24:16 - INFO - Adding 98 embeddings to FAISS index
+18:24:16 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=98, total_vectors=3436
+18:24:16 - INFO - Added 98 embeddings. Total: 3436
+18:24:16 - INFO - Updated 98 chunk embedding indices
+18:24:16 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:16 - INFO - PERF: save_faiss_index - 0.006s - index_name=research_papers, num_vectors=3436
+18:24:16 - INFO - Saved FAISS index: 3436 vectors
+18:24:16 - INFO - ✓ 2310.16427v2.pdf - embeddings generated (98)
+18:24:16 - INFO - 
+[44/160] Processing 2312.10997v5.pdf
+18:24:16 - INFO - → 2312.10997v5.pdf - indexing...
+18:24:16 - INFO - Calculated common font size: 9.96
+18:24:17 - INFO - Inserted paper: 2312.10997v5.pdf, paper_id: 46
+18:24:17 - INFO - Inserted 7 chunks for paper_id: 46
+18:24:17 - INFO - Inserted 6 sections for paper_id: 46
+18:24:17 - INFO - ✓ 2312.10997v5.pdf - indexed (7 chunks)
+18:24:17 - INFO - Generating embeddings for 7 texts in batches of 32
+18:24:17 - INFO - PERF: generate_embeddings - 0.460s - num_texts=7, batch_size=32, embeddings_per_sec=15.223284056634933
+18:24:17 - INFO - Generated 7 embeddings in 0.46s (15.2 texts/sec)
+18:24:17 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:17 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:17 - INFO - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=3436
+18:24:17 - INFO - Loaded FAISS index: 3436 vectors with 3436 mappings
+18:24:17 - INFO - Adding 7 embeddings to FAISS index
+18:24:17 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=7, total_vectors=3443
+18:24:17 - INFO - Added 7 embeddings. Total: 3443
+18:24:17 - INFO - Updated 7 chunk embedding indices
+18:24:17 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:17 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3443
+18:24:17 - INFO - Saved FAISS index: 3443 vectors
+18:24:17 - INFO - ✓ 2312.10997v5.pdf - embeddings generated (7)
+18:24:17 - INFO - 
+[45/160] Processing 2401.01335v3.pdf
+18:24:17 - INFO - → 2401.01335v3.pdf - indexing...
+18:24:18 - INFO - Calculated common font size: 9.96
+18:24:18 - INFO - Inserted paper: 2401.01335v3.pdf, paper_id: 47
+18:24:18 - INFO - Inserted 56 chunks for paper_id: 47
+18:24:18 - INFO - Inserted 56 sections for paper_id: 47
+18:24:18 - INFO - ✓ 2401.01335v3.pdf - indexed (56 chunks)
+18:24:18 - INFO - Generating embeddings for 56 texts in batches of 32
+18:24:23 - INFO - PERF: generate_embeddings - 4.770s - num_texts=56, batch_size=32, embeddings_per_sec=11.73979376379156
+18:24:23 - INFO - Generated 56 embeddings in 4.77s (11.7 texts/sec)
+18:24:23 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:23 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:23 - INFO - PERF: load_faiss_index - 0.018s - index_name=research_papers, num_vectors=3443
+18:24:23 - INFO - Loaded FAISS index: 3443 vectors with 3443 mappings
+18:24:23 - INFO - Adding 56 embeddings to FAISS index
+18:24:23 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=56, total_vectors=3499
+18:24:23 - INFO - Added 56 embeddings. Total: 3499
+18:24:23 - INFO - Updated 56 chunk embedding indices
+18:24:23 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:23 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3499
+18:24:23 - INFO - Saved FAISS index: 3499 vectors
+18:24:23 - INFO - ✓ 2401.01335v3.pdf - embeddings generated (56)
+18:24:23 - INFO - 
+[46/160] Processing 2401.06178v2.pdf
+18:24:23 - INFO - → 2401.06178v2.pdf - indexing...
+18:24:23 - INFO - Calculated common font size: 8.97
+18:24:23 - INFO - Inserted paper: 2401.06178v2.pdf, paper_id: 48
+18:24:23 - INFO - Inserted 17 chunks for paper_id: 48
+18:24:23 - INFO - Inserted 16 sections for paper_id: 48
+18:24:23 - INFO - ✓ 2401.06178v2.pdf - indexed (17 chunks)
+18:24:23 - INFO - Generating embeddings for 17 texts in batches of 32
+18:24:25 - INFO - PERF: generate_embeddings - 1.895s - num_texts=17, batch_size=32, embeddings_per_sec=8.96943257588394
+18:24:25 - INFO - Generated 17 embeddings in 1.90s (9.0 texts/sec)
+18:24:25 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:25 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:25 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=3499
+18:24:25 - INFO - Loaded FAISS index: 3499 vectors with 3499 mappings
+18:24:25 - INFO - Adding 17 embeddings to FAISS index
+18:24:25 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=17, total_vectors=3516
+18:24:25 - INFO - Added 17 embeddings. Total: 3516
+18:24:25 - INFO - Updated 17 chunk embedding indices
+18:24:25 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:25 - INFO - PERF: save_faiss_index - 0.035s - index_name=research_papers, num_vectors=3516
+18:24:25 - INFO - Saved FAISS index: 3516 vectors
+18:24:25 - INFO - ✓ 2401.06178v2.pdf - embeddings generated (17)
+18:24:25 - INFO - 
+[47/160] Processing 2401.10525v1.pdf
+18:24:25 - INFO - → 2401.10525v1.pdf - indexing...
+18:24:25 - INFO - Calculated common font size: 9.96
+18:24:25 - INFO - Inserted paper: 2401.10525v1.pdf, paper_id: 49
+18:24:25 - INFO - Inserted 5 chunks for paper_id: 49
+18:24:25 - INFO - Inserted 4 sections for paper_id: 49
+18:24:25 - INFO - ✓ 2401.10525v1.pdf - indexed (5 chunks)
+18:24:25 - INFO - Generating embeddings for 5 texts in batches of 32
+18:24:26 - INFO - PERF: generate_embeddings - 0.518s - num_texts=5, batch_size=32, embeddings_per_sec=9.659389563456715
+18:24:26 - INFO - Generated 5 embeddings in 0.52s (9.7 texts/sec)
+18:24:26 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:26 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:26 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=3516
+18:24:26 - INFO - Loaded FAISS index: 3516 vectors with 3516 mappings
+18:24:26 - INFO - Adding 5 embeddings to FAISS index
+18:24:26 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=5, total_vectors=3521
+18:24:26 - INFO - Added 5 embeddings. Total: 3521
+18:24:26 - INFO - Updated 5 chunk embedding indices
+18:24:26 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:26 - INFO - PERF: save_faiss_index - 0.037s - index_name=research_papers, num_vectors=3521
+18:24:26 - INFO - Saved FAISS index: 3521 vectors
+18:24:26 - INFO - ✓ 2401.10525v1.pdf - embeddings generated (5)
+18:24:26 - INFO - 
+[48/160] Processing 2401.15168v1.pdf
+18:24:26 - INFO - → 2401.15168v1.pdf - indexing...
+18:24:26 - INFO - Calculated common font size: 9.96
+18:24:26 - INFO - Inserted paper: 2401.15168v1.pdf, paper_id: 50
+18:24:26 - INFO - Inserted 3 chunks for paper_id: 50
+18:24:26 - INFO - Inserted 3 sections for paper_id: 50
+18:24:26 - INFO - ✓ 2401.15168v1.pdf - indexed (3 chunks)
+18:24:26 - INFO - Generating embeddings for 3 texts in batches of 32
+18:24:26 - INFO - PERF: generate_embeddings - 0.266s - num_texts=3, batch_size=32, embeddings_per_sec=11.268891623365807
+18:24:26 - INFO - Generated 3 embeddings in 0.27s (11.3 texts/sec)
+18:24:26 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:26 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:26 - INFO - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=3521
+18:24:26 - INFO - Loaded FAISS index: 3521 vectors with 3521 mappings
+18:24:26 - INFO - Adding 3 embeddings to FAISS index
+18:24:26 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=3, total_vectors=3524
+18:24:26 - INFO - Added 3 embeddings. Total: 3524
+18:24:26 - INFO - Updated 3 chunk embedding indices
+18:24:26 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:26 - INFO - PERF: save_faiss_index - 0.030s - index_name=research_papers, num_vectors=3524
+18:24:26 - INFO - Saved FAISS index: 3524 vectors
+18:24:26 - INFO - ✓ 2401.15168v1.pdf - embeddings generated (3)
+18:24:26 - INFO - 
+[49/160] Processing 2402.08567v2.pdf
+18:24:26 - INFO - → 2402.08567v2.pdf - indexing...
+18:24:27 - INFO - Calculated common font size: 9.96
+18:24:28 - INFO - Inserted paper: 2402.08567v2.pdf, paper_id: 51
+18:24:28 - INFO - Inserted 156 chunks for paper_id: 51
+18:24:28 - INFO - Inserted 138 sections for paper_id: 51
+18:24:28 - INFO - ✓ 2402.08567v2.pdf - indexed (156 chunks)
+18:24:28 - INFO - Generating embeddings for 156 texts in batches of 32
+18:24:43 - INFO - PERF: generate_embeddings - 15.604s - num_texts=156, batch_size=32, embeddings_per_sec=9.997186138412332
+18:24:43 - INFO - Generated 156 embeddings in 15.60s (10.0 texts/sec)
+18:24:43 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:43 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:43 - INFO - PERF: load_faiss_index - 0.006s - index_name=research_papers, num_vectors=3524
+18:24:43 - INFO - Loaded FAISS index: 3524 vectors with 3524 mappings
+18:24:43 - INFO - Adding 156 embeddings to FAISS index
+18:24:43 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=156, total_vectors=3680
+18:24:43 - INFO - Added 156 embeddings. Total: 3680
+18:24:43 - INFO - Updated 156 chunk embedding indices
+18:24:43 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:43 - INFO - PERF: save_faiss_index - 0.008s - index_name=research_papers, num_vectors=3680
+18:24:43 - INFO - Saved FAISS index: 3680 vectors
+18:24:43 - INFO - ✓ 2402.08567v2.pdf - embeddings generated (156)
+18:24:43 - INFO - 
+[50/160] Processing 2403.14608v7.pdf
+18:24:43 - INFO - → 2403.14608v7.pdf - indexing...
+18:24:44 - INFO - Calculated common font size: 9.96
+18:24:44 - INFO - Inserted paper: 2403.14608v7.pdf, paper_id: 52
+18:24:44 - INFO - Inserted 66 chunks for paper_id: 52
+18:24:44 - INFO - Inserted 65 sections for paper_id: 52
+18:24:44 - INFO - ✓ 2403.14608v7.pdf - indexed (66 chunks)
+18:24:44 - INFO - Generating embeddings for 66 texts in batches of 32
+18:24:51 - INFO - PERF: generate_embeddings - 6.767s - num_texts=66, batch_size=32, embeddings_per_sec=9.753868157770043
+18:24:51 - INFO - Generated 66 embeddings in 6.77s (9.8 texts/sec)
+18:24:51 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:51 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:51 - INFO - PERF: load_faiss_index - 0.006s - index_name=research_papers, num_vectors=3680
+18:24:51 - INFO - Loaded FAISS index: 3680 vectors with 3680 mappings
+18:24:51 - INFO - Adding 66 embeddings to FAISS index
+18:24:51 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=66, total_vectors=3746
+18:24:51 - INFO - Added 66 embeddings. Total: 3746
+18:24:51 - INFO - Updated 66 chunk embedding indices
+18:24:51 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:51 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=3746
+18:24:51 - INFO - Saved FAISS index: 3746 vectors
+18:24:51 - INFO - ✓ 2403.14608v7.pdf - embeddings generated (66)
+18:24:51 - INFO - 
+Progress: 50/160 (31%) - 17.7 papers/min - Est. 6.2 min remaining
+18:24:51 - INFO - 
+[51/160] Processing 2403.16980.pdf
+18:24:51 - INFO - → 2403.16980.pdf - indexing...
+18:24:51 - INFO - Calculated common font size: 11.96
+18:24:52 - INFO - Inserted paper: 2403.16980.pdf, paper_id: 53
+18:24:52 - INFO - Inserted 49 chunks for paper_id: 53
+18:24:52 - INFO - Inserted 46 sections for paper_id: 53
+18:24:52 - INFO - ✓ 2403.16980.pdf - indexed (49 chunks)
+18:24:52 - INFO - Generating embeddings for 49 texts in batches of 32
+18:24:57 - INFO - PERF: generate_embeddings - 4.905s - num_texts=49, batch_size=32, embeddings_per_sec=9.989021747461697
+18:24:57 - INFO - Generated 49 embeddings in 4.91s (10.0 texts/sec)
+18:24:57 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:24:57 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:57 - INFO - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=3746
+18:24:57 - INFO - Loaded FAISS index: 3746 vectors with 3746 mappings
+18:24:57 - INFO - Adding 49 embeddings to FAISS index
+18:24:57 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=49, total_vectors=3795
+18:24:57 - INFO - Added 49 embeddings. Total: 3795
+18:24:57 - INFO - Updated 49 chunk embedding indices
+18:24:57 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:24:57 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=3795
+18:24:57 - INFO - Saved FAISS index: 3795 vectors
+18:24:57 - INFO - ✓ 2403.16980.pdf - embeddings generated (49)
+18:24:57 - INFO - 
+[52/160] Processing 2403.17302.pdf
+18:24:57 - INFO - → 2403.17302.pdf - indexing...
+18:24:57 - INFO - Calculated common font size: 10.91
+18:24:57 - INFO - Inserted paper: 2403.17302.pdf, paper_id: 54
+18:24:57 - INFO - Inserted 78 chunks for paper_id: 54
+18:24:57 - INFO - Inserted 78 sections for paper_id: 54
+18:24:57 - INFO - ✓ 2403.17302.pdf - indexed (78 chunks)
+18:24:57 - INFO - Generating embeddings for 78 texts in batches of 32
+18:25:05 - INFO - PERF: generate_embeddings - 7.504s - num_texts=78, batch_size=32, embeddings_per_sec=10.39381339511839
+18:25:05 - INFO - Generated 78 embeddings in 7.50s (10.4 texts/sec)
+18:25:05 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:25:05 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:05 - INFO - PERF: load_faiss_index - 0.006s - index_name=research_papers, num_vectors=3795
+18:25:05 - INFO - Loaded FAISS index: 3795 vectors with 3795 mappings
+18:25:05 - INFO - Adding 78 embeddings to FAISS index
+18:25:05 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=78, total_vectors=3873
+18:25:05 - INFO - Added 78 embeddings. Total: 3873
+18:25:05 - INFO - Updated 78 chunk embedding indices
+18:25:05 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:05 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=3873
+18:25:05 - INFO - Saved FAISS index: 3873 vectors
+18:25:05 - INFO - ✓ 2403.17302.pdf - embeddings generated (78)
+18:25:05 - INFO - 
+[53/160] Processing 2403.17515.pdf
+18:25:05 - INFO - → 2403.17515.pdf - indexing...
+18:25:05 - INFO - Calculated common font size: 9.96
+18:25:06 - INFO - Inserted paper: 2403.17515.pdf, paper_id: 55
+18:25:06 - INFO - Inserted 39 chunks for paper_id: 55
+18:25:06 - INFO - Inserted 38 sections for paper_id: 55
+18:25:06 - INFO - ✓ 2403.17515.pdf - indexed (39 chunks)
+18:25:06 - INFO - Generating embeddings for 39 texts in batches of 32
+18:25:09 - INFO - PERF: generate_embeddings - 3.882s - num_texts=39, batch_size=32, embeddings_per_sec=10.046303761756873
+18:25:09 - INFO - Generated 39 embeddings in 3.88s (10.0 texts/sec)
+18:25:09 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:25:09 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:09 - INFO - PERF: load_faiss_index - 0.005s - index_name=research_papers, num_vectors=3873
+18:25:09 - INFO - Loaded FAISS index: 3873 vectors with 3873 mappings
+18:25:09 - INFO - Adding 39 embeddings to FAISS index
+18:25:09 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=39, total_vectors=3912
+18:25:09 - INFO - Added 39 embeddings. Total: 3912
+18:25:09 - INFO - Updated 39 chunk embedding indices
+18:25:09 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:09 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=3912
+18:25:09 - INFO - Saved FAISS index: 3912 vectors
+18:25:09 - INFO - ✓ 2403.17515.pdf - embeddings generated (39)
+18:25:09 - INFO - 
+[54/160] Processing 2403.19148v1.pdf
+18:25:09 - INFO - → 2403.19148v1.pdf - indexing...
+18:25:10 - INFO - Calculated common font size: 10.56
+18:25:10 - INFO - Inserted paper: 2403.19148v1.pdf, paper_id: 56
+18:25:10 - INFO - Inserted 85 chunks for paper_id: 56
+18:25:10 - INFO - Inserted 76 sections for paper_id: 56
+18:25:10 - INFO - ✓ 2403.19148v1.pdf - indexed (85 chunks)
+18:25:10 - INFO - Generating embeddings for 85 texts in batches of 32
+18:25:18 - INFO - PERF: generate_embeddings - 8.073s - num_texts=85, batch_size=32, embeddings_per_sec=10.529271906469015
+18:25:18 - INFO - Generated 85 embeddings in 8.07s (10.5 texts/sec)
+18:25:18 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:25:18 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:18 - INFO - PERF: load_faiss_index - 0.008s - index_name=research_papers, num_vectors=3912
+18:25:18 - INFO - Loaded FAISS index: 3912 vectors with 3912 mappings
+18:25:18 - INFO - Adding 85 embeddings to FAISS index
+18:25:18 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=85, total_vectors=3997
+18:25:18 - INFO - Added 85 embeddings. Total: 3997
+18:25:18 - INFO - Updated 85 chunk embedding indices
+18:25:18 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:18 - INFO - PERF: save_faiss_index - 0.006s - index_name=research_papers, num_vectors=3997
+18:25:18 - INFO - Saved FAISS index: 3997 vectors
+18:25:18 - INFO - ✓ 2403.19148v1.pdf - embeddings generated (85)
+18:25:18 - INFO - 
+[55/160] Processing 2404.08676v3.pdf
+18:25:18 - INFO - → 2404.08676v3.pdf - indexing...
+18:25:19 - INFO - Calculated common font size: 11.02
+18:25:19 - INFO - Inserted paper: 2404.08676v3.pdf, paper_id: 57
+18:25:19 - INFO - Inserted 54 chunks for paper_id: 57
+18:25:19 - INFO - Inserted 54 sections for paper_id: 57
+18:25:19 - INFO - ✓ 2404.08676v3.pdf - indexed (54 chunks)
+18:25:19 - INFO - Generating embeddings for 54 texts in batches of 32
+18:25:25 - INFO - PERF: generate_embeddings - 5.686s - num_texts=54, batch_size=32, embeddings_per_sec=9.497192007700656
+18:25:25 - INFO - Generated 54 embeddings in 5.69s (9.5 texts/sec)
+18:25:25 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:25:25 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:25 - INFO - PERF: load_faiss_index - 0.005s - index_name=research_papers, num_vectors=3997
+18:25:25 - INFO - Loaded FAISS index: 3997 vectors with 3997 mappings
+18:25:25 - INFO - Adding 54 embeddings to FAISS index
+18:25:25 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=54, total_vectors=4051
+18:25:25 - INFO - Added 54 embeddings. Total: 4051
+18:25:25 - INFO - Updated 54 chunk embedding indices
+18:25:25 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:25 - INFO - PERF: save_faiss_index - 0.005s - index_name=research_papers, num_vectors=4051
+18:25:25 - INFO - Saved FAISS index: 4051 vectors
+18:25:25 - INFO - ✓ 2404.08676v3.pdf - embeddings generated (54)
+18:25:25 - INFO - 
+[56/160] Processing 2404.09932v2 (1).pdf
+18:25:25 - INFO - → 2404.09932v2 (1).pdf - indexing...
+18:25:26 - INFO - Calculated common font size: 10.46
+18:25:28 - INFO - Inserted paper: 2404.09932v2 (1).pdf, paper_id: 58
+18:25:28 - INFO - Inserted 193 chunks for paper_id: 58
+18:25:28 - INFO - Inserted 192 sections for paper_id: 58
+18:25:28 - INFO - ✓ 2404.09932v2 (1).pdf - indexed (193 chunks)
+18:25:28 - INFO - Generating embeddings for 193 texts in batches of 32
+18:25:48 - INFO - PERF: generate_embeddings - 19.849s - num_texts=193, batch_size=32, embeddings_per_sec=9.723219180672865
+18:25:48 - INFO - Generated 193 embeddings in 19.85s (9.7 texts/sec)
+18:25:48 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:25:48 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:48 - INFO - PERF: load_faiss_index - 0.004s - index_name=research_papers, num_vectors=4051
+18:25:48 - INFO - Loaded FAISS index: 4051 vectors with 4051 mappings
+18:25:48 - INFO - Adding 193 embeddings to FAISS index
+18:25:48 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=193, total_vectors=4244
+18:25:48 - INFO - Added 193 embeddings. Total: 4244
+18:25:48 - INFO - Updated 193 chunk embedding indices
+18:25:48 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:25:48 - INFO - PERF: save_faiss_index - 0.009s - index_name=research_papers, num_vectors=4244
+18:25:48 - INFO - Saved FAISS index: 4244 vectors
+18:25:48 - INFO - ✓ 2404.09932v2 (1).pdf - embeddings generated (193)
+18:25:48 - INFO - 
+[57/160] Processing 2404.09932v2.pdf
+18:25:48 - INFO - → 2404.09932v2.pdf - indexing...
+18:25:49 - INFO - Calculated common font size: 10.46
+18:25:51 - INFO - Inserted paper: 2404.09932v2.pdf, paper_id: 59
+18:25:51 - INFO - Inserted 193 chunks for paper_id: 59
+18:25:51 - INFO - Inserted 192 sections for paper_id: 59
+18:25:51 - INFO - ✓ 2404.09932v2.pdf - indexed (193 chunks)
+18:25:51 - INFO - Generating embeddings for 193 texts in batches of 32
+18:26:14 - INFO - PERF: generate_embeddings - 22.400s - num_texts=193, batch_size=32, embeddings_per_sec=8.616048465258993
+18:26:14 - INFO - Generated 193 embeddings in 22.40s (8.6 texts/sec)
+18:26:14 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:26:14 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:14 - INFO - PERF: load_faiss_index - 0.006s - index_name=research_papers, num_vectors=4244
+18:26:14 - INFO - Loaded FAISS index: 4244 vectors with 4244 mappings
+18:26:14 - INFO - Adding 193 embeddings to FAISS index
+18:26:14 - INFO - PERF: add_embeddings_to_faiss - 0.002s - num_embeddings=193, total_vectors=4437
+18:26:14 - INFO - Added 193 embeddings. Total: 4437
+18:26:14 - INFO - Updated 193 chunk embedding indices
+18:26:14 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:14 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=4437
+18:26:14 - INFO - Saved FAISS index: 4437 vectors
+18:26:14 - INFO - ✓ 2404.09932v2.pdf - embeddings generated (193)
+18:26:14 - INFO - 
+[58/160] Processing 2404.16789v3.pdf
+18:26:14 - INFO - → 2404.16789v3.pdf - indexing...
+18:26:14 - INFO - Calculated common font size: 8.97
+18:26:15 - INFO - Inserted paper: 2404.16789v3.pdf, paper_id: 60
+18:26:15 - INFO - Inserted 118 chunks for paper_id: 60
+18:26:15 - INFO - Inserted 116 sections for paper_id: 60
+18:26:15 - INFO - ✓ 2404.16789v3.pdf - indexed (118 chunks)
+18:26:15 - INFO - Generating embeddings for 118 texts in batches of 32
+18:26:28 - INFO - PERF: generate_embeddings - 12.798s - num_texts=118, batch_size=32, embeddings_per_sec=9.220162586892204
+18:26:28 - INFO - Generated 118 embeddings in 12.80s (9.2 texts/sec)
+18:26:28 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:26:28 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:28 - INFO - PERF: load_faiss_index - 0.014s - index_name=research_papers, num_vectors=4437
+18:26:28 - INFO - Loaded FAISS index: 4437 vectors with 4437 mappings
+18:26:28 - INFO - Adding 118 embeddings to FAISS index
+18:26:28 - INFO - PERF: add_embeddings_to_faiss - 0.007s - num_embeddings=118, total_vectors=4555
+18:26:28 - INFO - Added 118 embeddings. Total: 4555
+18:26:28 - INFO - Updated 118 chunk embedding indices
+18:26:28 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:28 - INFO - PERF: save_faiss_index - 0.006s - index_name=research_papers, num_vectors=4555
+18:26:28 - INFO - Saved FAISS index: 4555 vectors
+18:26:28 - INFO - ✓ 2404.16789v3.pdf - embeddings generated (118)
+18:26:28 - INFO - 
+[59/160] Processing 2405.02957v3.pdf
+18:26:28 - INFO - → 2405.02957v3.pdf - indexing...
+18:26:29 - INFO - Calculated common font size: 11.96
+18:26:29 - INFO - Inserted paper: 2405.02957v3.pdf, paper_id: 61
+18:26:29 - INFO - Inserted 197 chunks for paper_id: 61
+18:26:30 - INFO - Inserted 196 sections for paper_id: 61
+18:26:30 - INFO - ✓ 2405.02957v3.pdf - indexed (197 chunks)
+18:26:30 - INFO - Generating embeddings for 197 texts in batches of 32
+18:26:48 - INFO - PERF: generate_embeddings - 18.095s - num_texts=197, batch_size=32, embeddings_per_sec=10.886887221518377
+18:26:48 - INFO - Generated 197 embeddings in 18.10s (10.9 texts/sec)
+18:26:48 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:26:48 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:48 - INFO - PERF: load_faiss_index - 0.013s - index_name=research_papers, num_vectors=4555
+18:26:48 - INFO - Loaded FAISS index: 4555 vectors with 4555 mappings
+18:26:48 - INFO - Adding 197 embeddings to FAISS index
+18:26:48 - INFO - PERF: add_embeddings_to_faiss - 0.004s - num_embeddings=197, total_vectors=4752
+18:26:48 - INFO - Added 197 embeddings. Total: 4752
+18:26:48 - INFO - Updated 197 chunk embedding indices
+18:26:48 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:48 - INFO - PERF: save_faiss_index - 0.006s - index_name=research_papers, num_vectors=4752
+18:26:48 - INFO - Saved FAISS index: 4752 vectors
+18:26:48 - INFO - ✓ 2405.02957v3.pdf - embeddings generated (197)
+18:26:48 - INFO - 
+[60/160] Processing 2405.06451v2.pdf
+18:26:48 - INFO - → 2405.06451v2.pdf - indexing...
+18:26:48 - INFO - Calculated common font size: 10.91
+18:26:48 - INFO - Inserted paper: 2405.06451v2.pdf, paper_id: 62
+18:26:48 - INFO - Inserted 25 chunks for paper_id: 62
+18:26:48 - INFO - Inserted 24 sections for paper_id: 62
+18:26:48 - INFO - ✓ 2405.06451v2.pdf - indexed (25 chunks)
+18:26:48 - INFO - Generating embeddings for 25 texts in batches of 32
+18:26:51 - INFO - PERF: generate_embeddings - 3.204s - num_texts=25, batch_size=32, embeddings_per_sec=7.801646448462086
+18:26:51 - INFO - Generated 25 embeddings in 3.20s (7.8 texts/sec)
+18:26:51 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:26:51 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:51 - INFO - PERF: load_faiss_index - 0.008s - index_name=research_papers, num_vectors=4752
+18:26:51 - INFO - Loaded FAISS index: 4752 vectors with 4752 mappings
+18:26:51 - INFO - Adding 25 embeddings to FAISS index
+18:26:51 - INFO - PERF: add_embeddings_to_faiss - 0.005s - num_embeddings=25, total_vectors=4777
+18:26:51 - INFO - Added 25 embeddings. Total: 4777
+18:26:51 - INFO - Updated 25 chunk embedding indices
+18:26:51 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:26:51 - INFO - PERF: save_faiss_index - 0.011s - index_name=research_papers, num_vectors=4777
+18:26:51 - INFO - Saved FAISS index: 4777 vectors
+18:26:51 - INFO - ✓ 2405.06451v2.pdf - embeddings generated (25)
+18:26:51 - INFO - 
+Progress: 60/160 (37%) - 12.4 papers/min - Est. 8.1 min remaining
+18:26:51 - INFO - 
+[61/160] Processing 2405.18137v2.pdf
+18:26:51 - INFO - → 2405.18137v2.pdf - indexing...
+18:26:52 - INFO - Calculated common font size: 9.96
+18:26:52 - INFO - Inserted paper: 2405.18137v2.pdf, paper_id: 63
+18:26:52 - INFO - Inserted 63 chunks for paper_id: 63
+18:26:52 - INFO - Inserted 63 sections for paper_id: 63
+18:26:52 - INFO - ✓ 2405.18137v2.pdf - indexed (63 chunks)
+18:26:52 - INFO - Generating embeddings for 63 texts in batches of 32
+18:27:01 - INFO - PERF: generate_embeddings - 8.700s - num_texts=63, batch_size=32, embeddings_per_sec=7.241152850961314
+18:27:01 - INFO - Generated 63 embeddings in 8.70s (7.2 texts/sec)
+18:27:01 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:01 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:01 - INFO - PERF: load_faiss_index - 0.016s - index_name=research_papers, num_vectors=4777
+18:27:01 - INFO - Loaded FAISS index: 4777 vectors with 4777 mappings
+18:27:01 - INFO - Adding 63 embeddings to FAISS index
+18:27:01 - INFO - PERF: add_embeddings_to_faiss - 0.005s - num_embeddings=63, total_vectors=4840
+18:27:01 - INFO - Added 63 embeddings. Total: 4840
+18:27:01 - INFO - Updated 63 chunk embedding indices
+18:27:01 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:01 - INFO - PERF: save_faiss_index - 0.010s - index_name=research_papers, num_vectors=4840
+18:27:01 - INFO - Saved FAISS index: 4840 vectors
+18:27:01 - INFO - ✓ 2405.18137v2.pdf - embeddings generated (63)
+18:27:01 - INFO - 
+[62/160] Processing 2406.07016v1.pdf
+18:27:01 - INFO - → 2406.07016v1.pdf - indexing...
+18:27:01 - INFO - Calculated common font size: 6.00
+18:27:02 - INFO - Inserted paper: 2406.07016v1.pdf, paper_id: 64
+18:27:02 - INFO - Inserted 132 chunks for paper_id: 64
+18:27:02 - INFO - Inserted 122 sections for paper_id: 64
+18:27:02 - INFO - ✓ 2406.07016v1.pdf - indexed (132 chunks)
+18:27:02 - INFO - Generating embeddings for 132 texts in batches of 32
+18:27:17 - INFO - PERF: generate_embeddings - 15.116s - num_texts=132, batch_size=32, embeddings_per_sec=8.732547452403749
+18:27:17 - INFO - Generated 132 embeddings in 15.12s (8.7 texts/sec)
+18:27:17 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:17 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:17 - INFO - PERF: load_faiss_index - 0.008s - index_name=research_papers, num_vectors=4840
+18:27:17 - INFO - Loaded FAISS index: 4840 vectors with 4840 mappings
+18:27:17 - INFO - Adding 132 embeddings to FAISS index
+18:27:17 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=132, total_vectors=4972
+18:27:17 - INFO - Added 132 embeddings. Total: 4972
+18:27:17 - INFO - Updated 132 chunk embedding indices
+18:27:17 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:17 - INFO - PERF: save_faiss_index - 0.065s - index_name=research_papers, num_vectors=4972
+18:27:17 - INFO - Saved FAISS index: 4972 vectors
+18:27:17 - INFO - ✓ 2406.07016v1.pdf - embeddings generated (132)
+18:27:17 - INFO - 
+[63/160] Processing 2406.08689v3.pdf
+18:27:17 - INFO - → 2406.08689v3.pdf - indexing...
+18:27:17 - INFO - Calculated common font size: 9.96
+18:27:17 - INFO - Inserted paper: 2406.08689v3.pdf, paper_id: 65
+18:27:17 - INFO - Inserted 6 chunks for paper_id: 65
+18:27:17 - INFO - Inserted 6 sections for paper_id: 65
+18:27:17 - INFO - ✓ 2406.08689v3.pdf - indexed (6 chunks)
+18:27:17 - INFO - Generating embeddings for 6 texts in batches of 32
+18:27:18 - INFO - PERF: generate_embeddings - 0.869s - num_texts=6, batch_size=32, embeddings_per_sec=6.907126142252772
+18:27:18 - INFO - Generated 6 embeddings in 0.87s (6.9 texts/sec)
+18:27:18 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:18 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:18 - INFO - PERF: load_faiss_index - 0.005s - index_name=research_papers, num_vectors=4972
+18:27:18 - INFO - Loaded FAISS index: 4972 vectors with 4972 mappings
+18:27:18 - INFO - Adding 6 embeddings to FAISS index
+18:27:18 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=6, total_vectors=4978
+18:27:18 - INFO - Added 6 embeddings. Total: 4978
+18:27:18 - INFO - Updated 6 chunk embedding indices
+18:27:18 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:18 - INFO - PERF: save_faiss_index - 0.009s - index_name=research_papers, num_vectors=4978
+18:27:18 - INFO - Saved FAISS index: 4978 vectors
+18:27:18 - INFO - ✓ 2406.08689v3.pdf - embeddings generated (6)
+18:27:18 - INFO - 
+[64/160] Processing 2406.08929v2.pdf
+18:27:18 - INFO - → 2406.08929v2.pdf - indexing...
+18:27:19 - INFO - Calculated common font size: 9.96
+18:27:20 - INFO - Inserted paper: 2406.08929v2.pdf, paper_id: 66
+18:27:20 - INFO - Inserted 105 chunks for paper_id: 66
+18:27:20 - INFO - Inserted 105 sections for paper_id: 66
+18:27:20 - INFO - ✓ 2406.08929v2.pdf - indexed (105 chunks)
+18:27:20 - INFO - Generating embeddings for 105 texts in batches of 32
+18:27:34 - INFO - PERF: generate_embeddings - 13.789s - num_texts=105, batch_size=32, embeddings_per_sec=7.614731799819948
+18:27:34 - INFO - Generated 105 embeddings in 13.79s (7.6 texts/sec)
+18:27:34 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:34 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:34 - INFO - PERF: load_faiss_index - 0.009s - index_name=research_papers, num_vectors=4978
+18:27:34 - INFO - Loaded FAISS index: 4978 vectors with 4978 mappings
+18:27:34 - INFO - Adding 105 embeddings to FAISS index
+18:27:34 - INFO - PERF: add_embeddings_to_faiss - 0.004s - num_embeddings=105, total_vectors=5083
+18:27:34 - INFO - Added 105 embeddings. Total: 5083
+18:27:34 - INFO - Updated 105 chunk embedding indices
+18:27:34 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:34 - INFO - PERF: save_faiss_index - 0.031s - index_name=research_papers, num_vectors=5083
+18:27:34 - INFO - Saved FAISS index: 5083 vectors
+18:27:34 - INFO - ✓ 2406.08929v2.pdf - embeddings generated (105)
+18:27:34 - INFO - 
+[65/160] Processing 2406.11426v1.pdf
+18:27:34 - INFO - → 2406.11426v1.pdf - indexing...
+18:27:34 - INFO - Calculated common font size: 9.96
+18:27:34 - INFO - Inserted paper: 2406.11426v1.pdf, paper_id: 67
+18:27:34 - INFO - Inserted 21 chunks for paper_id: 67
+18:27:34 - INFO - Inserted 21 sections for paper_id: 67
+18:27:34 - INFO - ✓ 2406.11426v1.pdf - indexed (21 chunks)
+18:27:34 - INFO - Generating embeddings for 21 texts in batches of 32
+18:27:37 - INFO - PERF: generate_embeddings - 3.163s - num_texts=21, batch_size=32, embeddings_per_sec=6.639125170933362
+18:27:37 - INFO - Generated 21 embeddings in 3.16s (6.6 texts/sec)
+18:27:37 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:37 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:37 - INFO - PERF: load_faiss_index - 0.006s - index_name=research_papers, num_vectors=5083
+18:27:37 - INFO - Loaded FAISS index: 5083 vectors with 5083 mappings
+18:27:37 - INFO - Adding 21 embeddings to FAISS index
+18:27:37 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=21, total_vectors=5104
+18:27:37 - INFO - Added 21 embeddings. Total: 5104
+18:27:37 - INFO - Updated 21 chunk embedding indices
+18:27:37 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:37 - INFO - PERF: save_faiss_index - 0.059s - index_name=research_papers, num_vectors=5104
+18:27:37 - INFO - Saved FAISS index: 5104 vectors
+18:27:37 - INFO - ✓ 2406.11426v1.pdf - embeddings generated (21)
+18:27:37 - INFO - 
+[66/160] Processing 2406.11524v1.pdf
+18:27:37 - INFO - → 2406.11524v1.pdf - indexing...
+18:27:38 - INFO - Calculated common font size: 9.96
+18:27:38 - INFO - Inserted paper: 2406.11524v1.pdf, paper_id: 68
+18:27:38 - INFO - Inserted 16 chunks for paper_id: 68
+18:27:38 - INFO - Inserted 16 sections for paper_id: 68
+18:27:38 - INFO - ✓ 2406.11524v1.pdf - indexed (16 chunks)
+18:27:38 - INFO - Generating embeddings for 16 texts in batches of 32
+18:27:40 - INFO - PERF: generate_embeddings - 2.183s - num_texts=16, batch_size=32, embeddings_per_sec=7.330189960102164
+18:27:40 - INFO - Generated 16 embeddings in 2.18s (7.3 texts/sec)
+18:27:40 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:40 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:40 - INFO - PERF: load_faiss_index - 0.007s - index_name=research_papers, num_vectors=5104
+18:27:40 - INFO - Loaded FAISS index: 5104 vectors with 5104 mappings
+18:27:40 - INFO - Adding 16 embeddings to FAISS index
+18:27:40 - INFO - PERF: add_embeddings_to_faiss - 0.004s - num_embeddings=16, total_vectors=5120
+18:27:40 - INFO - Added 16 embeddings. Total: 5120
+18:27:40 - INFO - Updated 16 chunk embedding indices
+18:27:40 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:40 - INFO - PERF: save_faiss_index - 0.012s - index_name=research_papers, num_vectors=5120
+18:27:40 - INFO - Saved FAISS index: 5120 vectors
+18:27:40 - INFO - ✓ 2406.11524v1.pdf - embeddings generated (16)
+18:27:40 - INFO - 
+[67/160] Processing 2406.11730v1.pdf
+18:27:40 - INFO - → 2406.11730v1.pdf - indexing...
+18:27:40 - INFO - Calculated common font size: 9.96
+18:27:41 - INFO - Inserted paper: 2406.11730v1.pdf, paper_id: 69
+18:27:41 - INFO - Inserted 29 chunks for paper_id: 69
+18:27:41 - INFO - Inserted 29 sections for paper_id: 69
+18:27:41 - INFO - ✓ 2406.11730v1.pdf - indexed (29 chunks)
+18:27:41 - INFO - Generating embeddings for 29 texts in batches of 32
+18:27:47 - INFO - PERF: generate_embeddings - 5.796s - num_texts=29, batch_size=32, embeddings_per_sec=5.003194217436472
+18:27:47 - INFO - Generated 29 embeddings in 5.80s (5.0 texts/sec)
+18:27:47 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:27:47 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:47 - INFO - PERF: load_faiss_index - 0.032s - index_name=research_papers, num_vectors=5120
+18:27:47 - INFO - Loaded FAISS index: 5120 vectors with 5120 mappings
+18:27:47 - INFO - Adding 29 embeddings to FAISS index
+18:27:47 - INFO - PERF: add_embeddings_to_faiss - 0.008s - num_embeddings=29, total_vectors=5149
+18:27:47 - INFO - Added 29 embeddings. Total: 5149
+18:27:47 - INFO - Updated 29 chunk embedding indices
+18:27:47 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:27:47 - INFO - PERF: save_faiss_index - 0.601s - index_name=research_papers, num_vectors=5149
+18:27:47 - INFO - Saved FAISS index: 5149 vectors
+18:27:47 - INFO - ✓ 2406.11730v1.pdf - embeddings generated (29)
+18:27:47 - INFO - 
+[68/160] Processing 2406.19741v3.pdf
+18:27:47 - INFO - → 2406.19741v3.pdf - indexing...
+18:27:48 - INFO - Calculated common font size: 9.96
+18:27:49 - INFO - Inserted paper: 2406.19741v3.pdf, paper_id: 70
+18:27:49 - INFO - Inserted 68 chunks for paper_id: 70
+18:27:49 - INFO - Inserted 68 sections for paper_id: 70
+18:27:49 - INFO - ✓ 2406.19741v3.pdf - indexed (68 chunks)
+18:27:49 - INFO - Generating embeddings for 68 texts in batches of 32
+18:28:00 - INFO - PERF: generate_embeddings - 10.658s - num_texts=68, batch_size=32, embeddings_per_sec=6.380040183966951
+18:28:00 - INFO - Generated 68 embeddings in 10.66s (6.4 texts/sec)
+18:28:00 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:28:00 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:00 - INFO - PERF: load_faiss_index - 0.032s - index_name=research_papers, num_vectors=5149
+18:28:00 - INFO - Loaded FAISS index: 5149 vectors with 5149 mappings
+18:28:00 - INFO - Adding 68 embeddings to FAISS index
+18:28:00 - INFO - PERF: add_embeddings_to_faiss - 0.028s - num_embeddings=68, total_vectors=5217
+18:28:00 - INFO - Added 68 embeddings. Total: 5217
+18:28:00 - INFO - Updated 68 chunk embedding indices
+18:28:00 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:00 - INFO - PERF: save_faiss_index - 0.079s - index_name=research_papers, num_vectors=5217
+18:28:00 - INFO - Saved FAISS index: 5217 vectors
+18:28:00 - INFO - ✓ 2406.19741v3.pdf - embeddings generated (68)
+18:28:00 - INFO - 
+[69/160] Processing 2407.13301v2.pdf
+18:28:00 - INFO - → 2407.13301v2.pdf - indexing...
+18:28:01 - INFO - Calculated common font size: 9.96
+18:28:01 - INFO - Inserted paper: 2407.13301v2.pdf, paper_id: 71
+18:28:01 - INFO - Inserted 200 chunks for paper_id: 71
+18:28:02 - INFO - Inserted 188 sections for paper_id: 71
+18:28:02 - INFO - ✓ 2407.13301v2.pdf - indexed (200 chunks)
+18:28:02 - INFO - Generating embeddings for 200 texts in batches of 32
+18:28:23 - INFO - PERF: generate_embeddings - 21.013s - num_texts=200, batch_size=32, embeddings_per_sec=9.517915206627892
+18:28:23 - INFO - Generated 200 embeddings in 21.01s (9.5 texts/sec)
+18:28:23 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:28:23 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:23 - INFO - PERF: load_faiss_index - 0.017s - index_name=research_papers, num_vectors=5217
+18:28:23 - INFO - Loaded FAISS index: 5217 vectors with 5217 mappings
+18:28:23 - INFO - Adding 200 embeddings to FAISS index
+18:28:23 - INFO - PERF: add_embeddings_to_faiss - 0.006s - num_embeddings=200, total_vectors=5417
+18:28:23 - INFO - Added 200 embeddings. Total: 5417
+18:28:23 - INFO - Updated 200 chunk embedding indices
+18:28:23 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:24 - INFO - PERF: save_faiss_index - 1.144s - index_name=research_papers, num_vectors=5417
+18:28:24 - INFO - Saved FAISS index: 5417 vectors
+18:28:24 - INFO - ✓ 2407.13301v2.pdf - embeddings generated (200)
+18:28:24 - INFO - 
+[70/160] Processing 2407.14414v2.pdf
+18:28:24 - INFO - → 2407.14414v2.pdf - indexing...
+18:28:24 - INFO - Calculated common font size: 9.96
+18:28:25 - INFO - Inserted paper: 2407.14414v2.pdf, paper_id: 72
+18:28:25 - INFO - Inserted 67 chunks for paper_id: 72
+18:28:25 - INFO - Inserted 65 sections for paper_id: 72
+18:28:25 - INFO - ✓ 2407.14414v2.pdf - indexed (67 chunks)
+18:28:25 - INFO - Generating embeddings for 67 texts in batches of 32
+18:28:38 - INFO - PERF: generate_embeddings - 12.943s - num_texts=67, batch_size=32, embeddings_per_sec=5.176549662800227
+18:28:38 - INFO - Generated 67 embeddings in 12.94s (5.2 texts/sec)
+18:28:38 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:28:38 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:38 - INFO - PERF: load_faiss_index - 0.030s - index_name=research_papers, num_vectors=5417
+18:28:38 - INFO - Loaded FAISS index: 5417 vectors with 5417 mappings
+18:28:38 - INFO - Adding 67 embeddings to FAISS index
+18:28:38 - INFO - PERF: add_embeddings_to_faiss - 0.020s - num_embeddings=67, total_vectors=5484
+18:28:38 - INFO - Added 67 embeddings. Total: 5484
+18:28:38 - INFO - Updated 67 chunk embedding indices
+18:28:38 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:38 - INFO - PERF: save_faiss_index - 0.037s - index_name=research_papers, num_vectors=5484
+18:28:38 - INFO - Saved FAISS index: 5484 vectors
+18:28:38 - INFO - ✓ 2407.14414v2.pdf - embeddings generated (67)
+18:28:38 - INFO - 
+Progress: 70/160 (43%) - 10.6 papers/min - Est. 8.5 min remaining
+18:28:38 - INFO - 
+[71/160] Processing 2407.14679v2.pdf
+18:28:38 - INFO - → 2407.14679v2.pdf - indexing...
+18:28:39 - INFO - Calculated common font size: 9.96
+18:28:40 - INFO - Inserted paper: 2407.14679v2.pdf, paper_id: 73
+18:28:40 - INFO - Inserted 82 chunks for paper_id: 73
+18:28:40 - INFO - Inserted 80 sections for paper_id: 73
+18:28:40 - INFO - ✓ 2407.14679v2.pdf - indexed (82 chunks)
+18:28:40 - INFO - Generating embeddings for 82 texts in batches of 32
+18:28:52 - INFO - PERF: generate_embeddings - 12.593s - num_texts=82, batch_size=32, embeddings_per_sec=6.511663176851597
+18:28:52 - INFO - Generated 82 embeddings in 12.59s (6.5 texts/sec)
+18:28:52 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:28:52 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:52 - INFO - PERF: load_faiss_index - 0.016s - index_name=research_papers, num_vectors=5484
+18:28:52 - INFO - Loaded FAISS index: 5484 vectors with 5484 mappings
+18:28:52 - INFO - Adding 82 embeddings to FAISS index
+18:28:52 - INFO - PERF: add_embeddings_to_faiss - 0.007s - num_embeddings=82, total_vectors=5566
+18:28:52 - INFO - Added 82 embeddings. Total: 5566
+18:28:52 - INFO - Updated 82 chunk embedding indices
+18:28:52 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:28:53 - INFO - PERF: save_faiss_index - 0.095s - index_name=research_papers, num_vectors=5566
+18:28:53 - INFO - Saved FAISS index: 5566 vectors
+18:28:53 - INFO - ✓ 2407.14679v2.pdf - embeddings generated (82)
+18:28:53 - INFO - 
+[72/160] Processing 2408.08072v3.pdf
+18:28:53 - INFO - → 2408.08072v3.pdf - indexing...
+18:28:53 - INFO - Calculated common font size: 10.91
+18:28:53 - INFO - Inserted paper: 2408.08072v3.pdf, paper_id: 74
+18:28:53 - INFO - Inserted 106 chunks for paper_id: 74
+18:28:53 - INFO - Inserted 94 sections for paper_id: 74
+18:28:53 - INFO - ✓ 2408.08072v3.pdf - indexed (106 chunks)
+18:28:53 - INFO - Generating embeddings for 106 texts in batches of 32
+18:29:07 - INFO - PERF: generate_embeddings - 13.759s - num_texts=106, batch_size=32, embeddings_per_sec=7.704292932251068
+18:29:07 - INFO - Generated 106 embeddings in 13.76s (7.7 texts/sec)
+18:29:07 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:29:07 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:07 - INFO - PERF: load_faiss_index - 0.022s - index_name=research_papers, num_vectors=5566
+18:29:07 - INFO - Loaded FAISS index: 5566 vectors with 5566 mappings
+18:29:07 - INFO - Adding 106 embeddings to FAISS index
+18:29:07 - INFO - PERF: add_embeddings_to_faiss - 0.007s - num_embeddings=106, total_vectors=5672
+18:29:07 - INFO - Added 106 embeddings. Total: 5672
+18:29:07 - INFO - Updated 106 chunk embedding indices
+18:29:07 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:07 - INFO - PERF: save_faiss_index - 0.029s - index_name=research_papers, num_vectors=5672
+18:29:07 - INFO - Saved FAISS index: 5672 vectors
+18:29:07 - INFO - ✓ 2408.08072v3.pdf - embeddings generated (106)
+18:29:07 - INFO - 
+[73/160] Processing 2408.10710v1.pdf
+18:29:07 - INFO - → 2408.10710v1.pdf - indexing...
+18:29:08 - INFO - Calculated common font size: 9.96
+18:29:08 - INFO - Inserted paper: 2408.10710v1.pdf, paper_id: 75
+18:29:08 - INFO - Inserted 23 chunks for paper_id: 75
+18:29:08 - INFO - Inserted 22 sections for paper_id: 75
+18:29:08 - INFO - ✓ 2408.10710v1.pdf - indexed (23 chunks)
+18:29:08 - INFO - Generating embeddings for 23 texts in batches of 32
+18:29:19 - INFO - PERF: generate_embeddings - 11.138s - num_texts=23, batch_size=32, embeddings_per_sec=2.0649991551117624
+18:29:19 - INFO - Generated 23 embeddings in 11.14s (2.1 texts/sec)
+18:29:19 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:29:19 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:19 - INFO - PERF: load_faiss_index - 0.019s - index_name=research_papers, num_vectors=5672
+18:29:19 - INFO - Loaded FAISS index: 5672 vectors with 5672 mappings
+18:29:19 - INFO - Adding 23 embeddings to FAISS index
+18:29:19 - INFO - PERF: add_embeddings_to_faiss - 0.005s - num_embeddings=23, total_vectors=5695
+18:29:19 - INFO - Added 23 embeddings. Total: 5695
+18:29:19 - INFO - Updated 23 chunk embedding indices
+18:29:19 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:19 - INFO - PERF: save_faiss_index - 0.009s - index_name=research_papers, num_vectors=5695
+18:29:19 - INFO - Saved FAISS index: 5695 vectors
+18:29:19 - INFO - ✓ 2408.10710v1.pdf - embeddings generated (23)
+18:29:19 - INFO - 
+[74/160] Processing 2408.11065v1.pdf
+18:29:19 - INFO - → 2408.11065v1.pdf - indexing...
+18:29:19 - INFO - Calculated common font size: 9.96
+18:29:20 - INFO - Inserted paper: 2408.11065v1.pdf, paper_id: 76
+18:29:20 - INFO - Inserted 7 chunks for paper_id: 76
+18:29:20 - INFO - Inserted 7 sections for paper_id: 76
+18:29:20 - INFO - ✓ 2408.11065v1.pdf - indexed (7 chunks)
+18:29:20 - INFO - Generating embeddings for 7 texts in batches of 32
+18:29:21 - INFO - PERF: generate_embeddings - 1.125s - num_texts=7, batch_size=32, embeddings_per_sec=6.224666660589022
+18:29:21 - INFO - Generated 7 embeddings in 1.12s (6.2 texts/sec)
+18:29:21 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:29:21 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:21 - INFO - PERF: load_faiss_index - 0.005s - index_name=research_papers, num_vectors=5695
+18:29:21 - INFO - Loaded FAISS index: 5695 vectors with 5695 mappings
+18:29:21 - INFO - Adding 7 embeddings to FAISS index
+18:29:21 - INFO - PERF: add_embeddings_to_faiss - 0.003s - num_embeddings=7, total_vectors=5702
+18:29:21 - INFO - Added 7 embeddings. Total: 5702
+18:29:21 - INFO - Updated 7 chunk embedding indices
+18:29:21 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:29:21 - INFO - PERF: save_faiss_index - 0.004s - index_name=research_papers, num_vectors=5702
+18:29:21 - INFO - Saved FAISS index: 5702 vectors
+18:29:21 - INFO - ✓ 2408.11065v1.pdf - embeddings generated (7)
+18:29:21 - INFO - 
+[75/160] Processing 2408.13296v1.pdf
+18:29:21 - INFO - → 2408.13296v1.pdf - indexing...
+18:29:31 - INFO - Calculated common font size: 9.96
+18:29:42 - INFO - Inserted paper: 2408.13296v1.pdf, paper_id: 77
+18:29:42 - INFO - Inserted 689 chunks for paper_id: 77
+18:29:43 - INFO - Inserted 687 sections for paper_id: 77
+18:29:43 - INFO - ✓ 2408.13296v1.pdf - indexed (689 chunks)
+18:29:43 - INFO - Generating embeddings for 689 texts in batches of 32
+18:30:15 - INFO - Processed 320/689 texts
+18:30:42 - INFO - Processed 640/689 texts
+18:30:58 - INFO - PERF: generate_embeddings - 74.812s - num_texts=689, batch_size=32, embeddings_per_sec=9.209752177515075
+18:30:58 - INFO - Generated 689 embeddings in 74.81s (9.2 texts/sec)
+18:30:58 - INFO - Initialized FAISSIndexManager: research_papers (dim=1024)
+18:30:58 - INFO - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:30:58 - INFO - PERF: load_faiss_index - 0.586s - index_name=research_papers, num_vectors=5702
+18:30:58 - INFO - Loaded FAISS index: 5702 vectors with 5702 mappings
+18:30:58 - INFO - Adding 689 embeddings to FAISS index
+18:30:58 - INFO - PERF: add_embeddings_to_faiss - 0.006s - num_embeddings=689, total_vectors=6391
+18:30:58 - INFO - Added 689 embeddings. Total: 6391
+18:30:58 - INFO - Updated 689 chunk embedding indices
+18:30:58 - INFO - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+18:30:58 - INFO - PERF: save_faiss_index - 0.016s - index_name=research_papers, num_vectors=6391
+18:30:58 - INFO - Saved FAISS index: 6391 vectors
+18:30:58 - INFO - ✓ 2408.13296v1.pdf - embeddings generated (689)
+18:30:58 - INFO - 
+[76/160] Processing 2408.16929v1.pdf
+18:30:58 - INFO - → 2408.16929v1.pdf - indexing...
+18:30:59 - INFO - Calculated common font size: 9.96
+18:30:59 - INFO - Inserted paper: 2408.16929v1.pdf, paper_id: 78
+18:30:59 - INFO - Inserted 13 chunks for paper_id: 78
+18:30:59 - INFO - Inserted 12 sections for paper_id: 78
+18:30:59 - INFO - ✓ 2408.16929v1.pdf - indexed (13 chunks)
+18:30:59 - INFO - Generating embeddings for 13 texts in batches of 32

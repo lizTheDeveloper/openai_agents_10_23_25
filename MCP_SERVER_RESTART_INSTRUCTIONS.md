@@ -165,3 +165,4 @@ For detailed technical information:
 
 After restarting the server, the MCP PDF Research Paper Indexer will be fully functional with all 8 tools working correctly.
 
+
