@@ -1,0 +1,729 @@
+2025-10-30 17:26:27 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:212 - Calculated common font size: 9.96
+2025-10-30 17:26:38 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:212 - Calculated common font size: 9.96
+2025-10-30 17:27:21 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:212 - Calculated common font size: 9.96
+2025-10-30 17:27:51 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:212 - Calculated common font size: 9.96
+2025-10-30 17:31:23 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:31:23 - pdf_indexer - INFO - s2_chunking.py:272 - Starting S2 chunking for 124 segments...
+2025-10-30 17:31:23 - pdf_indexer - INFO - s2_chunking.py:106 - Generating embeddings for 124 segments...
+2025-10-30 17:31:23 - pdf_indexer - INFO - s2_chunking.py:30 - Loading sentence transformer model...
+2025-10-30 17:31:25 - pdf_indexer - INFO - s2_chunking.py:32 - Model loaded successfully
+2025-10-30 17:31:26 - pdf_indexer - INFO - s2_chunking.py:110 - Embeddings generated
+2025-10-30 17:31:26 - pdf_indexer - INFO - s2_chunking.py:167 - Estimated 9 clusters for 4270 tokens
+2025-10-30 17:31:26 - pdf_indexer - INFO - s2_chunking.py:281 - Applying spectral clustering with 9 clusters...
+2025-10-30 17:31:26 - pdf_indexer - INFO - s2_chunking.py:322 - S2 chunking complete: 15 final chunks
+2025-10-30 17:31:46 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:31:46 - pdf_indexer - INFO - s2_chunking.py:272 - Starting S2 chunking for 124 segments...
+2025-10-30 17:31:46 - pdf_indexer - INFO - s2_chunking.py:106 - Generating embeddings for 124 segments...
+2025-10-30 17:31:46 - pdf_indexer - INFO - s2_chunking.py:30 - Loading sentence transformer model...
+2025-10-30 17:31:48 - pdf_indexer - INFO - s2_chunking.py:32 - Model loaded successfully
+2025-10-30 17:31:48 - pdf_indexer - INFO - s2_chunking.py:110 - Embeddings generated
+2025-10-30 17:31:48 - pdf_indexer - INFO - s2_chunking.py:167 - Estimated 9 clusters for 4270 tokens
+2025-10-30 17:31:48 - pdf_indexer - INFO - s2_chunking.py:281 - Applying spectral clustering with 9 clusters...
+2025-10-30 17:31:48 - pdf_indexer - INFO - s2_chunking.py:322 - S2 chunking complete: 15 final chunks
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:31 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:34:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:355 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:35:12 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:91 - Starting PDF download from URL: https://arxiv.org/pdf/2501.05485v1
+2025-10-30 17:35:12 - pdf_indexer - INFO - logger.py:94 - PERF: download_pdf - 0.203s - url=https://arxiv.org/pdf/2501.05485v1, filename=2501.05485v1.pdf, size_mb=0.35
+2025-10-30 17:35:12 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:166 - Successfully downloaded PDF: 2501.05485v1.pdf (0.35 MB) from https://arxiv.org/pdf/2501.05485v1
+2025-10-30 17:35:18 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:245 - Starting PDF chunking for file: 2501.05485v1.pdf using method: header
+2025-10-30 17:35:18 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:285 - Opened PDF: 2501.05485v1.pdf, pages: 10
+2025-10-30 17:35:18 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:35:18 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:289 - Extracted 124 text segments
+2025-10-30 17:35:18 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:297 - Created 52 chunks using header method
+2025-10-30 17:35:18 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_header - 0.138s - filename=2501.05485v1.pdf, num_chunks=52, num_segments=124, method=header
+2025-10-30 17:35:18 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:323 - Successfully chunked PDF: 2501.05485v1.pdf into 52 chunks using header
+2025-10-30 17:35:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:245 - Starting PDF chunking for file: 2501.05485v1.pdf using method: s2
+2025-10-30 17:35:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:285 - Opened PDF: 2501.05485v1.pdf, pages: 10
+2025-10-30 17:35:24 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:35:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:289 - Extracted 124 text segments
+2025-10-30 17:35:24 - pdf_indexer - INFO - s2_chunking.py:272 - Starting S2 chunking for 124 segments...
+2025-10-30 17:35:24 - pdf_indexer - INFO - s2_chunking.py:106 - Generating embeddings for 124 segments...
+2025-10-30 17:35:24 - pdf_indexer - INFO - s2_chunking.py:30 - Loading sentence transformer model...
+2025-10-30 17:35:26 - pdf_indexer - INFO - s2_chunking.py:32 - Model loaded successfully
+2025-10-30 17:35:26 - pdf_indexer - INFO - s2_chunking.py:110 - Embeddings generated
+2025-10-30 17:35:26 - pdf_indexer - INFO - s2_chunking.py:167 - Estimated 9 clusters for 4270 tokens
+2025-10-30 17:35:26 - pdf_indexer - INFO - s2_chunking.py:281 - Applying spectral clustering with 9 clusters...
+2025-10-30 17:35:27 - pdf_indexer - INFO - s2_chunking.py:322 - S2 chunking complete: 15 final chunks
+2025-10-30 17:35:27 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:297 - Created 15 chunks using s2 method
+2025-10-30 17:35:27 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_s2 - 2.831s - filename=2501.05485v1.pdf, num_chunks=15, num_segments=124, method=s2
+2025-10-30 17:35:27 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:323 - Successfully chunked PDF: 2501.05485v1.pdf into 15 chunks using s2
+2025-10-30 17:36:25 - pdf_indexer - INFO - operations.py:43 - Initializing database at indexes/research_papers.db
+2025-10-30 17:36:25 - pdf_indexer - INFO - operations.py:52 - Database initialized successfully
+2025-10-30 17:36:25 - pdf_indexer - INFO - operations.py:107 - Inserted paper: test_paper.pdf, paper_id: 1
+2025-10-30 17:36:25 - pdf_indexer - INFO - operations.py:177 - Inserted 3 chunks for paper_id: 1
+2025-10-30 17:36:25 - pdf_indexer - INFO - operations.py:267 - Inserted 3 sections for paper_id: 1
+2025-10-30 17:36:26 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:36:41 - pdf_indexer - INFO - operations.py:43 - Initializing database at indexes/research_papers.db
+2025-10-30 17:36:41 - pdf_indexer - INFO - operations.py:52 - Database initialized successfully
+2025-10-30 17:36:41 - pdf_indexer - INFO - operations.py:107 - Inserted paper: test_paper.pdf, paper_id: 1
+2025-10-30 17:36:41 - pdf_indexer - INFO - operations.py:177 - Inserted 3 chunks for paper_id: 1
+2025-10-30 17:36:41 - pdf_indexer - INFO - operations.py:267 - Inserted 3 sections for paper_id: 1
+2025-10-30 17:36:42 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:36:42 - pdf_indexer - INFO - operations.py:107 - Inserted paper: 2503.17671v1 (1).pdf, paper_id: 2
+2025-10-30 17:36:42 - pdf_indexer - INFO - operations.py:177 - Inserted 152 chunks for paper_id: 2
+2025-10-30 17:36:42 - pdf_indexer - INFO - operations.py:267 - Inserted 149 sections for paper_id: 2
+2025-10-30 17:38:10 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:38:10 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:38:10 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:38:10 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:632 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:38:16 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:38:16 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:38:16 - pdf_indexer - INFO - operations.py:108 - Inserted paper: test_paper.pdf, paper_id: 1
+2025-10-30 17:38:16 - pdf_indexer - INFO - operations.py:178 - Inserted 3 chunks for paper_id: 1
+2025-10-30 17:38:16 - pdf_indexer - INFO - operations.py:268 - Inserted 3 sections for paper_id: 1
+2025-10-30 17:38:17 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:38:17 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 2503.17671v1 (1).pdf, paper_id: 2
+2025-10-30 17:38:17 - pdf_indexer - INFO - operations.py:178 - Inserted 152 chunks for paper_id: 2
+2025-10-30 17:38:17 - pdf_indexer - INFO - operations.py:268 - Inserted 149 sections for paper_id: 2
+2025-10-30 17:38:49 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:38:49 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:38:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:39:51 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:39:51 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:39:51 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:39:51 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:632 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:40:37 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:40:37 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:40:37 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:40:54 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:40:54 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:40:54 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:41:07 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:41:07 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:41:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:49 - Database initialized successfully
+2025-10-30 17:41:22 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:41:22 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:53 - Database initialized successfully
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:398 - Starting PDF indexing for file: 2503.17671v1 (1).pdf using method: header
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:425 - Paper already indexed: 2503.17671v1 (1).pdf, paper_id: 2
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:265 - Starting PDF chunking for file: 2503.17671v1 (1).pdf using method: header
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:305 - Opened PDF: 2503.17671v1 (1).pdf, pages: 22
+2025-10-30 17:41:22 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:309 - Extracted 389 text segments
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:317 - Created 152 chunks using header method
+2025-10-30 17:41:22 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_header - 0.497s - filename=2503.17671v1 (1).pdf, num_chunks=152, num_segments=389, method=header
+2025-10-30 17:41:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:343 - Successfully chunked PDF: 2503.17671v1 (1).pdf into 152 chunks using header
+2025-10-30 17:42:22 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/all-MiniLM-L6-v2-4bit
+2025-10-30 17:42:27 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 1.981s - model_name=mlx-community/all-MiniLM-L6-v2-4bit, embedding_dim=384
+2025-10-30 17:42:27 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/all-MiniLM-L6-v2-4bit (dim=384)
+2025-10-30 17:42:27 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 3 texts in batches of 2
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.839s - num_texts=3, batch_size=2, embeddings_per_sec=3.57600041606145
+2025-10-30 17:42:28 - pdf_indexer - INFO - generator.py:123 - Generated 3 embeddings in 0.84s (3.6 texts/sec)
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: test_index (dim=384)
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:60 - Creating new FAISS index with dimension 384
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:71 - Created FAISS index: 0 vectors
+2025-10-30 17:42:28 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 5 texts in batches of 32
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.005s - num_texts=5, batch_size=32, embeddings_per_sec=1006.0212990501775
+2025-10-30 17:42:28 - pdf_indexer - INFO - generator.py:123 - Generated 5 embeddings in 0.00s (1006.0 texts/sec)
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:190 - Adding 5 embeddings to FAISS index
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=5, total_vectors=5
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:216 - Added 5 embeddings. Total: 5
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/test_index.faiss
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.001s - index_name=test_index, num_vectors=5
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 5 vectors
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: test_index (dim=384)
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/test_index.faiss
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.001s - index_name=test_index, num_vectors=5
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 5 vectors with 5 mappings
+2025-10-30 17:42:28 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 32
+2025-10-30 17:42:28 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.004s - num_texts=1, batch_size=32, embeddings_per_sec=257.06692816866877
+2025-10-30 17:42:28 - pdf_indexer - INFO - generator.py:123 - Generated 1 embeddings in 0.00s (257.1 texts/sec)
+2025-10-30 17:42:28 - pdf_indexer - INFO - faiss_index.py:274 - Search found 3 results
+2025-10-30 17:43:13 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/all-MiniLM-L6-v2-4bit
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.207s - model_name=mlx-community/all-MiniLM-L6-v2-4bit, embedding_dim=384
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/all-MiniLM-L6-v2-4bit (dim=384)
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 3 texts in batches of 2
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.035s - num_texts=3, batch_size=2, embeddings_per_sec=86.03641684501302
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:123 - Generated 3 embeddings in 0.03s (86.0 texts/sec)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: test_index (dim=384)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:60 - Creating new FAISS index with dimension 384
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:71 - Created FAISS index: 0 vectors
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 5 texts in batches of 32
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.005s - num_texts=5, batch_size=32, embeddings_per_sec=1036.2958936601274
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:123 - Generated 5 embeddings in 0.00s (1036.3 texts/sec)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:190 - Adding 5 embeddings to FAISS index
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=5, total_vectors=5
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:216 - Added 5 embeddings. Total: 5
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/test_index.faiss
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.000s - index_name=test_index, num_vectors=5
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 5 vectors
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: test_index (dim=384)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/test_index.faiss
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.000s - index_name=test_index, num_vectors=5
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 5 vectors with 5 mappings
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 32
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.003s - num_texts=1, batch_size=32, embeddings_per_sec=332.6700507614213
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:123 - Generated 1 embeddings in 0.00s (332.7 texts/sec)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:274 - Search found 3 results
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 10 texts in batches of 5
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.174s - num_texts=10, batch_size=5, embeddings_per_sec=57.40526217823083
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:123 - Generated 10 embeddings in 0.17s (57.4 texts/sec)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers_test (dim=384)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:89 - Index file not found: /Users/annhoward/openai_agents_10_23_25/indexes/research_papers_test.faiss
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:60 - Creating new FAISS index with dimension 384
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:71 - Created FAISS index: 0 vectors
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:190 - Adding 10 embeddings to FAISS index
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=10, total_vectors=10
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:216 - Added 10 embeddings. Total: 10
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers_test.faiss
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.000s - index_name=research_papers_test, num_vectors=10
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 10 vectors
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 32
+2025-10-30 17:43:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.003s - num_texts=1, batch_size=32, embeddings_per_sec=363.6154312960555
+2025-10-30 17:43:16 - pdf_indexer - INFO - generator.py:123 - Generated 1 embeddings in 0.00s (363.6 texts/sec)
+2025-10-30 17:43:16 - pdf_indexer - INFO - faiss_index.py:274 - Search found 5 results
+2025-10-30 17:45:33 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:45:33 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:45:33 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:53 - Database initialized successfully
+2025-10-30 17:46:25 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/all-MiniLM-L6-v2-4bit
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.423s - model_name=mlx-community/all-MiniLM-L6-v2-4bit, embedding_dim=384
+2025-10-30 17:46:29 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/all-MiniLM-L6-v2-4bit (dim=384)
+2025-10-30 17:46:29 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 3 texts in batches of 32
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.018s - num_texts=3, batch_size=32, embeddings_per_sec=167.6157186625816
+2025-10-30 17:46:29 - pdf_indexer - INFO - generator.py:123 - Generated 3 embeddings in 0.02s (167.6 texts/sec)
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=384)
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:89 - Index file not found: /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:60 - Creating new FAISS index with dimension 384
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:71 - Created FAISS index: 0 vectors
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:190 - Adding 3 embeddings to FAISS index
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=3, total_vectors=3
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:216 - Added 3 embeddings. Total: 3
+2025-10-30 17:46:29 - pdf_indexer - INFO - operations.py:709 - Updated 3 chunk embedding indices
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.001s - index_name=research_papers, num_vectors=3
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 3 vectors
+2025-10-30 17:46:29 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 32
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.004s - num_texts=1, batch_size=32, embeddings_per_sec=261.49027431421445
+2025-10-30 17:46:29 - pdf_indexer - INFO - generator.py:123 - Generated 1 embeddings in 0.00s (261.5 texts/sec)
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:274 - Search found 3 results
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=384)
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 17:46:29 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.001s - index_name=research_papers, num_vectors=3
+2025-10-30 17:46:29 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 17:56:53 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:56:53 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:56:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:57 - Database initialized successfully
+2025-10-30 17:56:58 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:56:58 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:56:58 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:57 - Database initialized successfully
+2025-10-30 17:57:12 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:57:12 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:57:12 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:57 - Database initialized successfully
+2025-10-30 17:58:00 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:58:00 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:58:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 17:58:07 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:58:07 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:58:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 17:58:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 17:59:32 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:59:32 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:59:32 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 17:59:52 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 17:59:52 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 17:59:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:02:04 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 18:02:04 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 18:02:04 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:02:04 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 18:02:51 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:116 - Starting PDF download from URL: https://arxiv.org/pdf/1706.03762.pdf
+2025-10-30 18:02:51 - pdf_indexer - INFO - logger.py:94 - PERF: download_pdf - 0.310s - url=https://arxiv.org/pdf/1706.03762.pdf, filename=1706.03762.pdf, size_mb=2.11
+2025-10-30 18:02:51 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:191 - Successfully downloaded PDF: 1706.03762.pdf (2.11 MB) from https://arxiv.org/pdf/1706.03762.pdf
+2025-10-30 18:02:55 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:270 - Starting PDF chunking for file: 1706.03762.pdf using method: header
+2025-10-30 18:02:55 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:310 - Opened PDF: 1706.03762.pdf, pages: 15
+2025-10-30 18:02:56 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:02:56 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:314 - Extracted 485 text segments
+2025-10-30 18:02:56 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:322 - Created 36 chunks using header method
+2025-10-30 18:02:56 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_header - 0.477s - filename=1706.03762.pdf, num_chunks=36, num_segments=485, method=header
+2025-10-30 18:02:56 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:348 - Successfully chunked PDF: 1706.03762.pdf into 36 chunks using header
+2025-10-30 18:03:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:270 - Starting PDF chunking for file: 1706.03762.pdf using method: s2
+2025-10-30 18:03:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:310 - Opened PDF: 1706.03762.pdf, pages: 15
+2025-10-30 18:03:01 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:03:01 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:314 - Extracted 485 text segments
+2025-10-30 18:03:01 - pdf_indexer - INFO - s2_chunking.py:272 - Starting S2 chunking for 485 segments...
+2025-10-30 18:03:01 - pdf_indexer - INFO - s2_chunking.py:106 - Generating embeddings for 485 segments...
+2025-10-30 18:03:01 - pdf_indexer - INFO - s2_chunking.py:30 - Loading sentence transformer model...
+2025-10-30 18:03:03 - pdf_indexer - INFO - s2_chunking.py:32 - Model loaded successfully
+2025-10-30 18:03:06 - pdf_indexer - INFO - s2_chunking.py:110 - Embeddings generated
+2025-10-30 18:03:06 - pdf_indexer - INFO - s2_chunking.py:167 - Estimated 20 clusters for 9875 tokens
+2025-10-30 18:03:06 - pdf_indexer - INFO - s2_chunking.py:281 - Applying spectral clustering with 20 clusters...
+2025-10-30 18:03:06 - pdf_indexer - INFO - s2_chunking.py:322 - S2 chunking complete: 36 final chunks
+2025-10-30 18:03:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:322 - Created 36 chunks using s2 method
+2025-10-30 18:03:06 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_s2 - 5.976s - filename=1706.03762.pdf, num_chunks=36, num_segments=485, method=s2
+2025-10-30 18:03:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:348 - Successfully chunked PDF: 1706.03762.pdf into 36 chunks using s2
+2025-10-30 18:03:12 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1706.03762.pdf using method: header
+2025-10-30 18:03:12 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1706.03762.pdf, pages: 15
+2025-10-30 18:03:12 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:03:13 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 485 text segments
+2025-10-30 18:03:13 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 36 chunks using header method
+2025-10-30 18:03:13 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:03:13 - pdf_indexer - INFO - operations.py:178 - Inserted 36 chunks for paper_id: 3
+2025-10-30 18:03:13 - pdf_indexer - INFO - operations.py:268 - Inserted 36 sections for paper_id: 3
+2025-10-30 18:03:13 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 0.484s - filename=1706.03762.pdf, paper_id=3, num_chunks=36, num_sections=36, method=header
+2025-10-30 18:03:13 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1706.03762.pdf, paper_id: 3, 36 chunks, 36 sections
+2025-10-30 18:03:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1706.03762.pdf
+2025-10-30 18:03:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:03:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 36 chunks for paper_id: 3
+2025-10-30 18:03:24 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:03:32 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 8.526s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:03:32 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:03:32 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 36 chunks...
+2025-10-30 18:03:32 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 36 texts in batches of 32
+2025-10-30 18:03:38 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=36, batch_size=32
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:03:38 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, filename=1706.03762.pdf, model_name=mlx-community/Qwen3-0.6B-4bit
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py", line 1047, in generate_embeddings
+    embeddings = embedding_gen.generate_embeddings(texts, batch_size=32)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:03:44 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:683 - Starting semantic search for query: 'transformer architecture attention mechanism...'
+2025-10-30 18:03:44 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:694 - Generating query embedding...
+2025-10-30 18:03:44 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:03:44 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=1, batch_size=1
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:03:44 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=search_research_papers, query=transformer architecture attention mechanism, k=3, context_window=1
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py", line 695, in search_research_papers
+    query_embeddings = embedding_gen.generate_embeddings([query], batch_size=1)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:03:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:872 - Getting document section for: 1706.03762.pdf
+2025-10-30 18:03:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:910 - Querying by header_path: Abstract
+2025-10-30 18:03:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:946 - Retrieved 1 chunks
+2025-10-30 18:04:24 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 18:04:24 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 18:04:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:04:24 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 18:05:17 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:05:20 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.733s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:05:20 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:05:20 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 3 texts in batches of 32
+2025-10-30 18:05:20 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=3, batch_size=32
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:05:42 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1706.03762.pdf
+2025-10-30 18:05:42 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:05:42 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 36 chunks for paper_id: 3
+2025-10-30 18:05:42 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:05:42 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.641s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:05:42 - pdf_indexer - INFO - generator.py:72 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:05:42 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 36 chunks...
+2025-10-30 18:05:42 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 36 texts in batches of 32
+2025-10-30 18:05:46 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=36, batch_size=32
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    # MLX arrays need explicit float32 conversion for FAISS compatibility
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:05:46 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, filename=1706.03762.pdf, model_name=mlx-community/Qwen3-0.6B-4bit
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py", line 1047, in generate_embeddings
+    embeddings = embedding_gen.generate_embeddings(texts, batch_size=32)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    # MLX arrays need explicit float32 conversion for FAISS compatibility
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:15 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:872 - Getting document section for: 1706.03762.pdf
+2025-10-30 18:06:15 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:910 - Querying by header_path: Abstract
+2025-10-30 18:06:15 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:946 - Retrieved 1 chunks
+2025-10-30 18:06:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:270 - Starting PDF chunking for file: 1706.03762.pdf using method: header
+2025-10-30 18:06:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:310 - Opened PDF: 1706.03762.pdf, pages: 15
+2025-10-30 18:06:22 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:06:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:314 - Extracted 485 text segments
+2025-10-30 18:06:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:322 - Created 36 chunks using header method
+2025-10-30 18:06:22 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_header - 0.445s - filename=1706.03762.pdf, num_chunks=36, num_segments=485, method=header
+2025-10-30 18:06:22 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:348 - Successfully chunked PDF: 1706.03762.pdf into 36 chunks using header
+2025-10-30 18:06:30 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1706.03762.pdf
+2025-10-30 18:06:30 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:06:30 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 36 chunks for paper_id: 3
+2025-10-30 18:06:30 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 36 chunks...
+2025-10-30 18:06:30 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 36 texts in batches of 32
+2025-10-30 18:06:34 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=36, batch_size=32
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    inputs.get("attention_mask")
+            ~~^^^^^^^^^^^^^^^^^^
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:34 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, filename=1706.03762.pdf, model_name=mlx-community/Qwen3-0.6B-4bit
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py", line 1047, in generate_embeddings
+    embeddings = embedding_gen.generate_embeddings(texts, batch_size=32)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    inputs.get("attention_mask")
+            ~~^^^^^^^^^^^^^^^^^^
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:40 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:683 - Starting semantic search for query: 'transformer architecture attention mechanism...'
+2025-10-30 18:06:40 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:694 - Generating query embedding...
+2025-10-30 18:06:40 - pdf_indexer - INFO - generator.py:95 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:06:40 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=1, batch_size=1
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    inputs.get("attention_mask")
+            ~~^^^^^^^^^^^^^^^^^^
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:40 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=search_research_papers, query=transformer architecture attention mechanism, k=3, context_window=1
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/semantic_chunked_pdf_rag.py", line 695, in search_research_papers
+    query_embeddings = embedding_gen.generate_embeddings([query], batch_size=1)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 104, in generate_embeddings
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 178, in _generate_batch
+    inputs.get("attention_mask")
+            ~~^^^^^^^^^^^^^^^^^^
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:48 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:06:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:116 - Starting PDF download from URL: https://arxiv.org/pdf/2010.11929.pdf
+2025-10-30 18:06:48 - pdf_indexer - INFO - logger.py:94 - PERF: download_pdf - 0.397s - url=https://arxiv.org/pdf/2010.11929.pdf, filename=2010.11929.pdf, size_mb=3.57
+2025-10-30 18:06:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:191 - Successfully downloaded PDF: 2010.11929.pdf (3.57 MB) from https://arxiv.org/pdf/2010.11929.pdf
+2025-10-30 18:06:52 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.929s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:06:52 - pdf_indexer - INFO - generator.py:82 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:06:52 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:06:52 - pdf_indexer - ERROR - logger.py:106 - ERROR: RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1. - Context: operation=generate_embeddings, num_texts=1, batch_size=1
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 114, in generate_embeddings
+    batch_embeddings = self._generate_batch(batch_texts)
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/generator.py", line 196, in _generate_batch
+    embeddings_np = np.array(embeddings_mlx, dtype=np.float32, copy=True)
+RuntimeError: Item size 2 for PEP 3118 buffer format string B does not match the dtype B item size 1.
+2025-10-30 18:06:56 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 2010.11929.pdf using method: header
+2025-10-30 18:06:56 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 2010.11929.pdf, pages: 22
+2025-10-30 18:06:57 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:06:57 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 676 text segments
+2025-10-30 18:06:57 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 10 chunks using header method
+2025-10-30 18:06:57 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 2010.11929.pdf, paper_id: 4
+2025-10-30 18:06:57 - pdf_indexer - INFO - operations.py:178 - Inserted 10 chunks for paper_id: 4
+2025-10-30 18:06:57 - pdf_indexer - INFO - operations.py:268 - Inserted 9 sections for paper_id: 4
+2025-10-30 18:06:57 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 0.542s - filename=2010.11929.pdf, paper_id=4, num_chunks=10, num_sections=9, method=header
+2025-10-30 18:06:57 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 2010.11929.pdf, paper_id: 4, 10 chunks, 9 sections
+2025-10-30 18:07:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:270 - Starting PDF chunking for file: 2010.11929.pdf using method: s2
+2025-10-30 18:07:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:310 - Opened PDF: 2010.11929.pdf, pages: 22
+2025-10-30 18:07:03 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:07:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:314 - Extracted 676 text segments
+2025-10-30 18:07:03 - pdf_indexer - INFO - s2_chunking.py:272 - Starting S2 chunking for 676 segments...
+2025-10-30 18:07:03 - pdf_indexer - INFO - s2_chunking.py:106 - Generating embeddings for 676 segments...
+2025-10-30 18:07:03 - pdf_indexer - INFO - s2_chunking.py:30 - Loading sentence transformer model...
+2025-10-30 18:07:05 - pdf_indexer - INFO - s2_chunking.py:32 - Model loaded successfully
+2025-10-30 18:07:07 - pdf_indexer - INFO - s2_chunking.py:110 - Embeddings generated
+2025-10-30 18:07:08 - pdf_indexer - INFO - s2_chunking.py:167 - Estimated 33 clusters for 16770 tokens
+2025-10-30 18:07:08 - pdf_indexer - INFO - s2_chunking.py:281 - Applying spectral clustering with 33 clusters...
+2025-10-30 18:07:08 - pdf_indexer - INFO - s2_chunking.py:322 - S2 chunking complete: 59 final chunks
+2025-10-30 18:07:08 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:322 - Created 59 chunks using s2 method
+2025-10-30 18:07:08 - pdf_indexer - INFO - logger.py:94 - PERF: chunk_pdf_s2 - 4.752s - filename=2010.11929.pdf, num_chunks=59, num_segments=676, method=s2
+2025-10-30 18:07:08 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:348 - Successfully chunked PDF: 2010.11929.pdf into 59 chunks using s2
+2025-10-30 18:07:16 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:07:20 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.781s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:07:20 - pdf_indexer - INFO - generator.py:82 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:07:20 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:07:20 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.028s - num_texts=1, batch_size=1, embeddings_per_sec=35.83190807739951
+2025-10-30 18:07:20 - pdf_indexer - INFO - generator.py:133 - Generated 1 embeddings in 0.03s (35.8 texts/sec)
+2025-10-30 18:07:20 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 5 texts in batches of 2
+2025-10-30 18:07:21 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.193s - num_texts=5, batch_size=2, embeddings_per_sec=25.907813413023632
+2025-10-30 18:07:21 - pdf_indexer - INFO - generator.py:133 - Generated 5 embeddings in 0.19s (25.9 texts/sec)
+2025-10-30 18:10:25 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 18:10:25 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 18:10:25 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:10:25 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 18:10:44 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1706.03762.pdf
+2025-10-30 18:10:44 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:10:44 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 36 chunks for paper_id: 3
+2025-10-30 18:10:44 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:10:45 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.757s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:10:45 - pdf_indexer - INFO - generator.py:82 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:10:45 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 36 chunks...
+2025-10-30 18:10:45 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 36 texts in batches of 32
+2025-10-30 18:10:52 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 18:10:52 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 18:10:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:10:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 18:10:58 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 2010.11929.pdf
+2025-10-30 18:10:58 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 2010.11929.pdf, paper_id: 4
+2025-10-30 18:10:58 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 10 chunks for paper_id: 4
+2025-10-30 18:10:58 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:10:59 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.638s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:10:59 - pdf_indexer - INFO - generator.py:82 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:10:59 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 10 chunks...
+2025-10-30 18:10:59 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 10 texts in batches of 32
+2025-10-30 18:11:00 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.976s - num_texts=10, batch_size=32, embeddings_per_sec=10.248181531642693
+2025-10-30 18:11:00 - pdf_indexer - INFO - generator.py:133 - Generated 10 embeddings in 0.98s (10.2 texts/sec)
+2025-10-30 18:11:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 10 embeddings of dimension 1024
+2025-10-30 18:11:00 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:11:00 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:11:00 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.003s - index_name=research_papers, num_vectors=3
+2025-10-30 18:11:00 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 18:11:00 - pdf_indexer - INFO - faiss_index.py:190 - Adding 10 embeddings to FAISS index
+2025-10-30 18:11:00 - pdf_indexer - ERROR - logger.py:106 - ERROR: AssertionError:  - Context: operation=add_embeddings_to_faiss, num_embeddings=10, num_chunk_ids=10
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/faiss_index.py", line 202, in add_embeddings
+    self.index.add(embeddings)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/annhoward/openai_agents_10_23_25/env/lib/python3.13/site-packages/faiss/class_wrappers.py", line 237, in replacement_add
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-10-30 18:11:00 - pdf_indexer - ERROR - semantic_chunked_pdf_rag.py:1068 - Failed to add embeddings to FAISS index
+2025-10-30 18:11:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:683 - Starting semantic search for query: 'transformer architecture attention mechanism...'
+2025-10-30 18:11:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:694 - Generating query embedding...
+2025-10-30 18:11:07 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:11:07 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.035s - num_texts=1, batch_size=1, embeddings_per_sec=28.72240445390984
+2025-10-30 18:11:07 - pdf_indexer - INFO - generator.py:133 - Generated 1 embeddings in 0.03s (28.7 texts/sec)
+2025-10-30 18:11:07 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:11:07 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:11:07 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.001s - index_name=research_papers, num_vectors=3
+2025-10-30 18:11:07 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 18:11:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:724 - Searching FAISS index for top 3 matches...
+2025-10-30 18:11:07 - pdf_indexer - ERROR - logger.py:106 - ERROR: AssertionError:  - Context: operation=faiss_search, k=3
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/faiss_index.py", line 263, in search
+    distances, indices = self.index.search(query_embedding, k)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/annhoward/openai_agents_10_23_25/env/lib/python3.13/site-packages/faiss/class_wrappers.py", line 349, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-10-30 18:11:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:728 - No results found
+2025-10-30 18:11:16 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: test_paper.pdf
+2025-10-30 18:11:16 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: test_paper.pdf, paper_id: 1
+2025-10-30 18:11:16 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 3 chunks for paper_id: 1
+2025-10-30 18:11:16 - pdf_indexer - WARNING - semantic_chunked_pdf_rag.py:1034 - Some chunks already have embeddings for paper: test_paper.pdf
+2025-10-30 18:11:16 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 3 chunks...
+2025-10-30 18:11:16 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 3 texts in batches of 32
+2025-10-30 18:11:16 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.040s - num_texts=3, batch_size=32, embeddings_per_sec=74.22802432794352
+2025-10-30 18:11:16 - pdf_indexer - INFO - generator.py:133 - Generated 3 embeddings in 0.04s (74.2 texts/sec)
+2025-10-30 18:11:16 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 3 embeddings of dimension 1024
+2025-10-30 18:11:16 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:11:16 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:11:16 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.000s - index_name=research_papers, num_vectors=3
+2025-10-30 18:11:16 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 18:11:16 - pdf_indexer - INFO - faiss_index.py:190 - Adding 3 embeddings to FAISS index
+2025-10-30 18:11:16 - pdf_indexer - ERROR - logger.py:106 - ERROR: AssertionError:  - Context: operation=add_embeddings_to_faiss, num_embeddings=3, num_chunk_ids=3
+Traceback (most recent call last):
+  File "/Users/annhoward/openai_agents_10_23_25/embeddings/faiss_index.py", line 202, in add_embeddings
+    self.index.add(embeddings)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/annhoward/openai_agents_10_23_25/env/lib/python3.13/site-packages/faiss/class_wrappers.py", line 237, in replacement_add
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-10-30 18:11:16 - pdf_indexer - ERROR - semantic_chunked_pdf_rag.py:1068 - Failed to add embeddings to FAISS index
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: test_paper.pdf
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: test_paper.pdf, paper_id: 1
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 3 chunks for paper_id: 1
+2025-10-30 18:11:53 - pdf_indexer - WARNING - semantic_chunked_pdf_rag.py:1034 - Some chunks already have embeddings for paper: test_paper.pdf
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 3 chunks...
+2025-10-30 18:11:53 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 3 texts in batches of 32
+2025-10-30 18:11:53 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.039s - num_texts=3, batch_size=32, embeddings_per_sec=77.03792229419471
+2025-10-30 18:11:53 - pdf_indexer - INFO - generator.py:133 - Generated 3 embeddings in 0.04s (77.0 texts/sec)
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 3 embeddings of dimension 1024
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:89 - Index file not found: /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1059 - Creating new FAISS index
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:60 - Creating new FAISS index with dimension 1024
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:71 - Created FAISS index: 0 vectors
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:190 - Adding 3 embeddings to FAISS index
+2025-10-30 18:11:53 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=3, total_vectors=3
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:216 - Added 3 embeddings. Total: 3
+2025-10-30 18:11:53 - pdf_indexer - INFO - operations.py:709 - Updated 3 chunk embedding indices
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:11:53 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.001s - index_name=research_papers, num_vectors=3
+2025-10-30 18:11:53 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 3 vectors
+2025-10-30 18:11:53 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.043s - filename=test_paper.pdf, paper_id=1, num_embeddings=3, embedding_dim=1024, embeddings_per_sec=69.45093472129464
+2025-10-30 18:11:53 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1105 - Successfully generated 3 embeddings for test_paper.pdf in 0.04s
+2025-10-30 18:12:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:683 - Starting semantic search for query: 'machine learning artificial intelligence...'
+2025-10-30 18:12:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:694 - Generating query embedding...
+2025-10-30 18:12:00 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:12:00 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.021s - num_texts=1, batch_size=1, embeddings_per_sec=46.566124877875474
+2025-10-30 18:12:00 - pdf_indexer - INFO - generator.py:133 - Generated 1 embeddings in 0.02s (46.6 texts/sec)
+2025-10-30 18:12:00 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:12:00 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:12:00 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.000s - index_name=research_papers, num_vectors=3
+2025-10-30 18:12:00 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 18:12:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:724 - Searching FAISS index for top 3 matches...
+2025-10-30 18:12:00 - pdf_indexer - INFO - faiss_index.py:274 - Search found 3 results
+2025-10-30 18:12:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:737 - Found 3 matches
+2025-10-30 18:12:00 - pdf_indexer - INFO - logger.py:94 - PERF: search_research_papers - 0.028s - query_length=40, k=3, context_window=1, num_results=3
+2025-10-30 18:12:00 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:814 - Search completed: 3 total chunks (including context) in 0.03s
+2025-10-30 18:12:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1706.03762.pdf
+2025-10-30 18:12:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1706.03762.pdf, paper_id: 3
+2025-10-30 18:12:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 36 chunks for paper_id: 3
+2025-10-30 18:12:07 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 36 chunks...
+2025-10-30 18:12:07 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 36 texts in batches of 32
+2025-10-30 18:12:10 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 2.713s - num_texts=36, batch_size=32, embeddings_per_sec=13.270383090118322
+2025-10-30 18:12:10 - pdf_indexer - INFO - generator.py:133 - Generated 36 embeddings in 2.71s (13.3 texts/sec)
+2025-10-30 18:12:10 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 36 embeddings of dimension 1024
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:12:10 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.001s - index_name=research_papers, num_vectors=3
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 3 vectors with 3 mappings
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:190 - Adding 36 embeddings to FAISS index
+2025-10-30 18:12:10 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=36, total_vectors=39
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:216 - Added 36 embeddings. Total: 39
+2025-10-30 18:12:10 - pdf_indexer - INFO - operations.py:709 - Updated 36 chunk embedding indices
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:12:10 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.000s - index_name=research_papers, num_vectors=39
+2025-10-30 18:12:10 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 39 vectors
+2025-10-30 18:12:10 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 2.721s - filename=1706.03762.pdf, paper_id=3, num_embeddings=36, embedding_dim=1024, embeddings_per_sec=13.229847113921736
+2025-10-30 18:12:10 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1105 - Successfully generated 36 embeddings for 1706.03762.pdf in 2.72s
+2025-10-30 18:12:17 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:683 - Starting semantic search for query: 'How does the attention mechanism work in transformers?...'
+2025-10-30 18:12:17 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:694 - Generating query embedding...
+2025-10-30 18:12:17 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 1 texts in batches of 1
+2025-10-30 18:12:17 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 0.150s - num_texts=1, batch_size=1, embeddings_per_sec=6.682392677622617
+2025-10-30 18:12:17 - pdf_indexer - INFO - generator.py:133 - Generated 1 embeddings in 0.15s (6.7 texts/sec)
+2025-10-30 18:12:17 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:12:17 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:12:17 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.000s - index_name=research_papers, num_vectors=39
+2025-10-30 18:12:17 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 39 vectors with 39 mappings
+2025-10-30 18:12:17 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:724 - Searching FAISS index for top 5 matches...
+2025-10-30 18:12:17 - pdf_indexer - INFO - faiss_index.py:274 - Search found 5 results
+2025-10-30 18:12:17 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:737 - Found 5 matches
+2025-10-30 18:12:17 - pdf_indexer - INFO - logger.py:94 - PERF: search_research_papers - 0.157s - query_length=54, k=5, context_window=1, num_results=12
+2025-10-30 18:12:17 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:814 - Search completed: 12 total chunks (including context) in 0.16s
+2025-10-30 18:13:57 - pdf_indexer - INFO - operations.py:44 - Initializing database at /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.db
+2025-10-30 18:13:57 - pdf_indexer - INFO - operations.py:53 - Database initialized successfully
+2025-10-30 18:13:57 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:58 - Database initialized successfully
+2025-10-30 18:13:57 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1134 - Starting PDF Research Paper Indexing MCP Server
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1409.3215v3.pdf using method: header
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1409.3215v3.pdf, pages: 9
+2025-10-30 18:14:47 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 206 text segments
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 33 chunks using header method
+2025-10-30 18:14:47 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1409.3215v3.pdf, paper_id: 5
+2025-10-30 18:14:47 - pdf_indexer - INFO - operations.py:178 - Inserted 33 chunks for paper_id: 5
+2025-10-30 18:14:47 - pdf_indexer - INFO - operations.py:268 - Inserted 26 sections for paper_id: 5
+2025-10-30 18:14:47 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 0.156s - filename=1409.3215v3.pdf, paper_id=5, num_chunks=33, num_sections=26, method=header
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1409.3215v3.pdf, paper_id: 5, 33 chunks, 26 sections
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1512.07679v2.pdf using method: header
+2025-10-30 18:14:47 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1512.07679v2.pdf, pages: 11
+2025-10-30 18:14:48 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:14:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 360 text segments
+2025-10-30 18:14:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 34 chunks using header method
+2025-10-30 18:14:48 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1512.07679v2.pdf, paper_id: 6
+2025-10-30 18:14:48 - pdf_indexer - INFO - operations.py:178 - Inserted 34 chunks for paper_id: 6
+2025-10-30 18:14:48 - pdf_indexer - INFO - operations.py:268 - Inserted 33 sections for paper_id: 6
+2025-10-30 18:14:48 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 0.229s - filename=1512.07679v2.pdf, paper_id=6, num_chunks=34, num_sections=33, method=header
+2025-10-30 18:14:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1512.07679v2.pdf, paper_id: 6, 34 chunks, 33 sections
+2025-10-30 18:14:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1603.09320v4.pdf using method: header
+2025-10-30 18:14:48 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1603.09320v4.pdf, pages: 13
+2025-10-30 18:14:48 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 8.04
+2025-10-30 18:14:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 558 text segments
+2025-10-30 18:14:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 111 chunks using header method
+2025-10-30 18:14:49 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1603.09320v4.pdf, paper_id: 7
+2025-10-30 18:14:49 - pdf_indexer - INFO - operations.py:178 - Inserted 111 chunks for paper_id: 7
+2025-10-30 18:14:49 - pdf_indexer - INFO - operations.py:268 - Inserted 110 sections for paper_id: 7
+2025-10-30 18:14:49 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 0.468s - filename=1603.09320v4.pdf, paper_id=7, num_chunks=111, num_sections=110, method=header
+2025-10-30 18:14:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1603.09320v4.pdf, paper_id: 7, 111 chunks, 110 sections
+2025-10-30 18:14:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1904.08490v1.pdf using method: header
+2025-10-30 18:14:49 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1904.08490v1.pdf, pages: 17
+2025-10-30 18:14:50 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 9.96
+2025-10-30 18:14:50 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 387 text segments
+2025-10-30 18:14:50 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 41 chunks using header method
+2025-10-30 18:14:50 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1904.08490v1.pdf, paper_id: 8
+2025-10-30 18:14:50 - pdf_indexer - INFO - operations.py:178 - Inserted 41 chunks for paper_id: 8
+2025-10-30 18:14:50 - pdf_indexer - INFO - operations.py:268 - Inserted 41 sections for paper_id: 8
+2025-10-30 18:14:50 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 1.282s - filename=1904.08490v1.pdf, paper_id=8, num_chunks=41, num_sections=41, method=header
+2025-10-30 18:14:50 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1904.08490v1.pdf, paper_id: 8, 41 chunks, 41 sections
+2025-10-30 18:14:50 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:403 - Starting PDF indexing for file: 1911.01547v2.pdf using method: header
+2025-10-30 18:14:50 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:445 - Opened PDF: 1911.01547v2.pdf, pages: 64
+2025-10-30 18:14:51 - pdf_indexer - INFO - extractor.py:126 - Calculated common font size: 10.91
+2025-10-30 18:14:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:449 - Extracted 565 text segments
+2025-10-30 18:14:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:457 - Created 90 chunks using header method
+2025-10-30 18:14:52 - pdf_indexer - INFO - operations.py:108 - Inserted paper: 1911.01547v2.pdf, paper_id: 9
+2025-10-30 18:14:52 - pdf_indexer - INFO - operations.py:178 - Inserted 90 chunks for paper_id: 9
+2025-10-30 18:14:52 - pdf_indexer - INFO - operations.py:268 - Inserted 90 sections for paper_id: 9
+2025-10-30 18:14:52 - pdf_indexer - INFO - logger.py:94 - PERF: index_pdf_header - 1.399s - filename=1911.01547v2.pdf, paper_id=9, num_chunks=90, num_sections=90, method=header
+2025-10-30 18:14:52 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:513 - Successfully indexed PDF: 1911.01547v2.pdf, paper_id: 9, 90 chunks, 90 sections
+2025-10-30 18:14:59 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1409.3215v3.pdf
+2025-10-30 18:14:59 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1409.3215v3.pdf, paper_id: 5
+2025-10-30 18:14:59 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 33 chunks for paper_id: 5
+2025-10-30 18:14:59 - pdf_indexer - INFO - generator.py:40 - Initializing EmbeddingGenerator with model: mlx-community/Qwen3-0.6B-4bit
+2025-10-30 18:14:59 - pdf_indexer - INFO - logger.py:94 - PERF: load_embedding_model - 0.731s - model_name=mlx-community/Qwen3-0.6B-4bit, embedding_dim=1024
+2025-10-30 18:14:59 - pdf_indexer - INFO - generator.py:82 - Loaded embedding model: mlx-community/Qwen3-0.6B-4bit (dim=1024)
+2025-10-30 18:14:59 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 33 chunks...
+2025-10-30 18:14:59 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 33 texts in batches of 32
+2025-10-30 18:15:02 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 2.690s - num_texts=33, batch_size=32, embeddings_per_sec=12.267256530970757
+2025-10-30 18:15:02 - pdf_indexer - INFO - generator.py:133 - Generated 33 embeddings in 2.69s (12.3 texts/sec)
+2025-10-30 18:15:02 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 33 embeddings of dimension 1024
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:15:02 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.001s - index_name=research_papers, num_vectors=39
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 39 vectors with 39 mappings
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:190 - Adding 33 embeddings to FAISS index
+2025-10-30 18:15:02 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=33, total_vectors=72
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:216 - Added 33 embeddings. Total: 72
+2025-10-30 18:15:02 - pdf_indexer - INFO - operations.py:709 - Updated 33 chunk embedding indices
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:15:02 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.001s - index_name=research_papers, num_vectors=72
+2025-10-30 18:15:02 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 72 vectors
+2025-10-30 18:15:02 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 3.469s - filename=1409.3215v3.pdf, paper_id=5, num_embeddings=33, embedding_dim=1024, embeddings_per_sec=9.512959042848582
+2025-10-30 18:15:02 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1105 - Successfully generated 33 embeddings for 1409.3215v3.pdf in 3.47s
+2025-10-30 18:15:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1512.07679v2.pdf
+2025-10-30 18:15:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1512.07679v2.pdf, paper_id: 6
+2025-10-30 18:15:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 34 chunks for paper_id: 6
+2025-10-30 18:15:03 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 34 chunks...
+2025-10-30 18:15:03 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 34 texts in batches of 32
+2025-10-30 18:15:05 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 2.619s - num_texts=34, batch_size=32, embeddings_per_sec=12.981257935419928
+2025-10-30 18:15:05 - pdf_indexer - INFO - generator.py:133 - Generated 34 embeddings in 2.62s (13.0 texts/sec)
+2025-10-30 18:15:05 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1049 - Generated 34 embeddings of dimension 1024
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:50 - Initialized FAISSIndexManager: research_papers (dim=1024)
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:92 - Loading FAISS index from /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:15:05 - pdf_indexer - INFO - logger.py:94 - PERF: load_faiss_index - 0.000s - index_name=research_papers, num_vectors=72
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:113 - Loaded FAISS index: 72 vectors with 72 mappings
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:190 - Adding 34 embeddings to FAISS index
+2025-10-30 18:15:05 - pdf_indexer - INFO - logger.py:94 - PERF: add_embeddings_to_faiss - 0.000s - num_embeddings=34, total_vectors=106
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:216 - Added 34 embeddings. Total: 106
+2025-10-30 18:15:05 - pdf_indexer - INFO - operations.py:709 - Updated 34 chunk embedding indices
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:137 - Saving FAISS index to /Users/annhoward/openai_agents_10_23_25/indexes/research_papers.faiss
+2025-10-30 18:15:05 - pdf_indexer - INFO - logger.py:94 - PERF: save_faiss_index - 0.000s - index_name=research_papers, num_vectors=106
+2025-10-30 18:15:05 - pdf_indexer - INFO - faiss_index.py:155 - Saved FAISS index: 106 vectors
+2025-10-30 18:15:05 - pdf_indexer - INFO - logger.py:94 - PERF: generate_embeddings - 2.625s - filename=1512.07679v2.pdf, paper_id=6, num_embeddings=34, embedding_dim=1024, embeddings_per_sec=12.95476951436671
+2025-10-30 18:15:05 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1105 - Successfully generated 34 embeddings for 1512.07679v2.pdf in 2.62s
+2025-10-30 18:15:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:999 - Starting embedding generation for: 1603.09320v4.pdf
+2025-10-30 18:15:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1017 - Found paper: 1603.09320v4.pdf, paper_id: 7
+2025-10-30 18:15:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1030 - Found 111 chunks for paper_id: 7
+2025-10-30 18:15:06 - pdf_indexer - INFO - semantic_chunked_pdf_rag.py:1046 - Generating embeddings for 111 chunks...
+2025-10-30 18:15:06 - pdf_indexer - INFO - generator.py:105 - Generating embeddings for 111 texts in batches of 32
